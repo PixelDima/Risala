@@ -1,0 +1,169 @@
+/*  8.1  - Help Classes */
+
+%clearfix {
+	&:before,
+	&:after {
+		display: table;
+		content: "";
+		line-height: 0;
+	}
+	&:after {
+		clear: both;
+	}
+}
+
+//Word-Wrap
+%breakword {
+	word-wrap: break-word;
+}
+
+%normal-wrap {
+	word-wrap: normal;
+}
+
+%auto-wrap {
+	word-wrap: auto;
+}
+
+%start-image {
+	@include float_start;
+	@include margin-end(30px);
+	overflow: hidden;
+	&.right {
+		@include margin-end(0);
+	}
+}
+
+%end-image {
+	@include float_end;
+	@include margin-start(30px);
+	overflow: hidden;
+	&.right {
+		@include margin-start(0px);
+	}
+}
+
+%h1 {
+	font-size: px-to-rem($h1);
+	line-height: px-to-em($h1_lh, $h1);
+	@if ($global-direction=="rtl") {
+		letter-spacing: 0;
+	}
+	@else {
+		letter-spacing: 0.05em;
+	}
+	font-weight: $h2-weight;
+}
+
+%h2 {
+	font-size: px-to-rem($h2);
+	line-height: px-to-em($h2_lh, $h2);
+	font-weight: $h2-weight;
+}
+
+%h3 {
+	font-size: px-to-rem($h3);
+	line-height: px-to-em($h3_lh, $h3);
+	@if ($global-direction=="rtl") {
+		letter-spacing: 0;
+	}
+	@else {
+		letter-spacing: 0.025em
+	}
+	font-weight: $h3-weight;
+}
+
+%h4 {
+	font-size: px-to-rem($h4);
+	line-height: px-to-em($h4_lh, $h4);
+	@if ($global-direction=="rtl") {
+		letter-spacing: 0;
+	}
+	@else {
+		letter-spacing: 0.025em
+	}
+	font-weight: $h4-weight;
+}
+
+%h5 {
+	font-size: px-to-rem($h5);
+	line-height: px-to-em($h5_lh, $h5);
+	letter-spacing: 0.01em;
+	font-weight: $h5-weight;
+}
+
+%h6 {
+	font-size: px-to-rem($h6);
+	line-height: px-to-em($h6_lh, $h6);
+	font-weight: $h6-weight;
+}
+
+/*Utitity*/
+
+.text-center {
+	text-align: center;
+}
+
+.text-start {
+	@include text_align_start();
+}
+
+.text-end {
+	@include text_align_end();
+}
+
+.float-start {
+	@include float-start();
+}
+
+.float-end {
+	@include float-end();
+}
+
+.hide {
+	display: none;
+}
+
+.start-image {
+	@include float_start;
+	@include margin-end(30px);
+	overflow: hidden;
+	&.right {
+		@include margin-end(0);
+	}
+}
+
+.end-image {
+	@include float_end;
+	@include margin-start(30px);
+	overflow: hidden;
+	&.right {
+		@include margin-start(0px);
+	}
+}
+
+.end-image,
+.start-image {
+	.circle {
+		@include border-radius(80px);
+	}
+}
+
+.circle>img {
+	border-radius: 100%;
+	overflow: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content: "";
+	line-height: 0;
+}
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}

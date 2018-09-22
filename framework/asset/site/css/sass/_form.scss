@@ -1,0 +1,228 @@
+$form-lable-color: $header-font-color;
+$form-lable-color-focus: $theme-color;
+$form-bg-color: #FFFFFF;
+$form-border-color: $border-color;
+$form-border-color-focus: $theme-color;
+$form-color: $header-font-color;
+
+button,
+input:not(input[type="radio"]),
+textarea {
+	font-size: 100%;
+	margin: 0;
+	vertical-align: baseline;
+	*vertical-align: middle;
+	-webkit-appearance: none;
+	box-sizing: border-box;
+}
+
+#page input[type="button"],
+#page input[type="reset"],
+#page input[type="submit"],
+.button,
+.comment-navigation a,
+#page #infinite-handle button {
+	position: relative;
+	cursor: pointer;
+	display: inline-block;
+	outline: none;
+	border: none;
+	margin: 0;
+	padding: 0 px-to-rem(20);
+	background-color: $default-btn-bg-color;
+	color: $default-btn-color;
+	font-size: px-to-rem($base-font-size - 2);
+	font-weight: $btn-weight;
+	line-height: px-to-rem(60);
+	height: px-to-rem(60);
+	font-style: normal;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+	overflow: hidden;
+
+	@if $global-direction=="rtl" {
+		letter-spacing: 0;
+	}
+
+	@else {
+		letter-spacing: 1.5px;
+	}
+
+	@include user-select(none);
+	@include box-sizing(order-box);
+	@include transition(all 320ms ease-out);
+	text-transform: uppercase;
+	white-space: nowrap;
+	@include border-radius($radius-var);
+	-webkit-backface-visibility: hidden;
+
+	i {
+		@include padding-end(15px);
+		@include margin-start(-15px);
+	}
+
+	svg {
+		@include padding-end(10px);
+		@include margin-start(-10px);
+		position: relative;
+		fill: currentColor;
+		height: px-to-rem(18);
+		top: px-to-rem(4);
+		width: px-to-rem(28);
+	}
+
+	&:hover {
+		background-color: darken($default-btn-bg-color, 20%);
+	}
+
+	&:focus {
+		background-color: darken($default-btn-bg-color, 22%);
+	}
+
+	&:active {
+		background-color: darken($default-btn-bg-color, 25%);
+	}
+
+	@include break(mobile) {
+		padding: 10px 16px;
+		font-size: 16px;
+	}
+}
+
+input[type="radio"]+label,
+input[type="checkbox"]+label,
+label~input[type="checkbox"] {
+	width: auto;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	padding: 0;
+}
+
+input[type="search"] {
+	-webkit-appearance: textfield;
+	box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+input[type="search"],
+textarea,
+select,
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="password"],
+input[type="number"],
+input[type="url"],
+input[type="tel"] {
+	margin: 0;
+	padding: px-to-rem(15.5) px-to-rem($sp_conected_elms);
+	background-color: $form-bg-color;
+	border-width: 0;
+	outline: none;
+	font-weight: 400;
+	height: px-to-rem(60);
+	@include transition(all 320ms ease-out);
+	@include border-radius($radius-var);
+	-webkit-appearance: none;
+	-webkit-tap-highlight-color: $header-link-color;
+	@include box-sizing(border-box);
+	@include text_align_start();
+	box-shadow: inset 0 0 0 1px $border-color;
+}
+
+select {
+	max-width: 100%;
+	background-image: linear-gradient(45deg, transparent 55%, $header-link-color 55%),
+	linear-gradient(135deg, $header-link-color 55%, transparent 55%);
+
+	@if $global-direction == "rtl" {
+	background-position:
+		calc(15% - 20px) calc(1.5rem + 2px),
+		calc(15% - 15px) calc(1.5rem + 2px),
+		calc(15% - 2.5rem) .98rem;
+	background-size: 5px 5px, 5px 5px, 1px 1.5em;
+
+	}@else{
+	background-position:
+		calc(100% - 20px) calc(1.5rem + 2px),
+		calc(100% - 15px) calc(1.5rem + 2px),
+		calc(100% - 2.5rem) .98rem;
+	background-size: 5px 5px, 5px 5px, 1px 1.5em;
+
+	}
+	background-repeat: no-repeat;
+}
+
+.textarea,
+form textarea {
+	min-height: 10rem;
+	height: 10rem;
+}
+
+.required {
+	color: #F35959;
+}
+
+form {
+	position: relative;
+	max-width: 100%;
+	font-size: 1rem;
+	@extend %clearfix;
+
+	&.matrial-form {
+
+		p,
+		.field {
+			position: relative;
+			margin: 0 0 px-to-rem(30);
+			@include margin-end(0);
+		}
+	}
+
+	/**Focus**/
+	input[type="search"],
+	input[type="text"],
+	input[type="email"],
+	input[type="date"],
+	input[type="password"],
+	input[type="url"],
+	input[type="tel"],
+	textarea {
+		width: 100%;
+
+		&:focus {
+			background: #f5f5f5 !important;
+		}
+	}
+}
+
+@include placeholder {
+	color: #b3b3b3;
+	@include transition(color 320ms ease-out);
+}
+
+.search-icon {
+	position: absolute;
+	@include end(10px);
+	top: 13px;
+}
+
+#page .not-found {
+	padding-top: px-to-rem(90);
+	padding-bottom: px-to-rem(90);
+
+	.searchform {
+		margin: 0 auto;
+		width: px-to-rem(400);
+
+		@include break(mobile) {
+			width: 100%;
+		}
+	}
+}

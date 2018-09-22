@@ -1,0 +1,143 @@
+.wp-block-pullquote {
+	padding: sp_dima($sp_elms, 16, 20) px-to-rem($sp_elms);
+	text-align: center;
+}
+
+.post-content ul.wp-block-gallery,
+.wp-block-gallery {
+	&:not(.alignfull):not(.alignwide) {
+		padding: 0;
+		@include margin-start(0);
+	}
+}
+
+.wp-block-audio audio {
+	width: 100%;
+}
+
+.wp-block-cover-image {
+	margin-top: 2.2em;
+	margin-bottom: 2.1em;
+}
+
+ul.wp-block-gallery.alignfull {
+	@include margin-start(50%);
+	@include padding-start(0);
+}
+
+.alignwide {
+	max-width: inherit;
+}
+
+.alignfull {
+	width: 100vw;
+	@include margin-start(50%);
+	max-width: inherit;
+
+	@if $global-direction=="ltr" {
+		-webkit-transform: translateX(-50%);
+		transform: translateX(-50%);
+	}
+
+	@else {
+		-webkit-transform: translateX(50%);
+		transform: translateX(50%);
+	}
+
+	.edit-post-visual-editor & {
+		margin-bottom: 0;
+		width: 100%;
+	}
+}
+
+#page {
+	.aligncenter {
+		clear: both;
+		margin: 0 auto px-to-rem($sp_elms) auto;
+	}
+}
+
+.wp-block-columns {
+	.wp-block-column:first-child {
+		@include margin-start(0);
+	}
+
+	.wp-block-column {
+		@include margin-start(px-to-rem(30));
+	}
+}
+
+/*
+Color & Background for GB
+*/
+.has-cl-dima-main-color {
+	color: $theme-color;
+}
+
+.has-cl-dima-main-background-color {
+	background-color: $theme-color;
+}
+
+.has-cl-dima-white-color {
+	color: #ffffff;
+}
+
+.has-cl-dima-white-background-color {
+	background-color: #ffffff;
+}
+
+.has-cl-dima-paragraph-color {
+	color: $body-text-color;
+}
+
+.has-cl-dima-paragraph-background-color {
+	background-color: $body-text-color;
+}
+
+.has-cl-dima-headline-color {
+	color: $header-font-color;
+}
+
+.has-cl-dima-headline-background-color {
+	background-color: $header-font-color;
+}
+
+.has-cl-dima-border-color {
+	color: $border-color;
+}
+
+.has-cl-dima-border-background-color {
+	background-color: $border-color;
+}
+
+.has-cl-dima-error-color {
+	color: $error-color-txt;
+}
+
+.has-cl-dima-error-background-color {
+	background-color: $error-color-txt;
+}
+
+.has-cl-dima-info-color {
+	color: $info-color-txt;
+}
+
+.has-cl-dima-info-background-color {
+	background-color: $info-color-txt;
+}
+
+.has-cl-dima-warning-color {
+	color: $warning-color-txt;
+}
+
+.has-cl-dima-warning-background-color {
+	background-color: $warning-color-txt;
+}
+
+.has-cl-dima-success-color {
+	color: $success-color-txt;
+}
+
+.has-cl-dima-success-background-color {
+	background-color: $success-color-txt;
+}

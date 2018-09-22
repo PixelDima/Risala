@@ -1,0 +1,139 @@
+footer {
+	position: relative;
+}
+
+.footer-container {
+	background: $footer-bg-top;
+	border-top: 1px solid $footer-bordre-color;
+	.widget {
+		>ul,
+		ol {
+			margin: 0;
+			>li {
+				display: block;
+				padding: 15px 0;
+				border-bottom: 1px dashed $footer-bordre-color;
+				&:first-child {
+					padding-top: 0
+				}
+			}
+		}
+	}
+	.footer-widgets .widget+.widget {
+		margin-top: px-to-em(40);
+	}
+	.top-footer {
+		position: relative;
+		padding: sp_dima($sp_small, $base-font-size, $base-line-height) 0 sp_dima($sp_small - 40, $base-font-size, $base-line-height) 0;
+		&.clm-4 {
+			.footer-column {
+				width: calc(100% / 4 - 4%);
+				@include break(sd-max) {
+					width: 100%;
+				}
+			}
+		}
+		&.clm-3 {
+			.footer-column {
+				width: calc(100% / 3 - 4%);
+				@include break(sd-max) {
+					width: 100%;
+				}
+			}
+		}
+		&.clm-2 {
+			.footer-column {
+				width: calc(100% / 2 - 4%);
+				@include break(sd-max) {
+					width: 100%;
+				}
+			}
+		}
+		&.clm-1 {
+			.footer-column {
+				width: 100%;
+				@include break(sd-max) {
+					width: 100%;
+				}
+			}
+		}
+		.footer-widgets {
+			display: inline-block;
+			width: 100%;
+			margin-bottom: 6%;
+		}
+		.footer-column {
+			@include float_start();
+			@include margin-end(4%);
+			display: inline-block;
+			vertical-align: top;
+			transition: .2s ease-in-out;
+		}
+		a {
+			color: $header-link-color;
+			&:hover {
+				color: $body-link-color;
+			}
+		}
+		p {
+			color: $footer-color;
+			margin-bottom: 0;
+		}
+		textarea,
+		select,
+		input[type="text"],
+		input[type="email"],
+		input[type="date"],
+		input[type="password"],
+		input[type="number"],
+		input[type="url"],
+		input[type="tel"] {
+			border-color: $footer-bordre-color;
+		}
+		hr {
+			border-color: $footer-bordre-color;
+			padding: 0;
+		}
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			color: $footer-header-color;
+		}
+		.widget .button,
+		[type="submit"],
+		.dima-button {
+			background-color: $footer-bordre-color;
+		}
+	}
+}
+
+.footer-bottom {
+	position: relative;
+	background: $footer-bg-bottom;
+	color: #a2a2a2;
+    padding: px-to-rem(35) 0;
+    @include break(sd-max){
+        text-align: center;
+    }
+	a {
+		color: #ffffff;
+	}
+	.copyright {
+		display: inline-block;
+	}
+	.copyright+.social-navigation {
+        @include float-end();
+        @include break(sd-max){
+            float: none;
+        }
+	}
+	.social-navigation a:before {
+		color: #a2a2a2;
+		&:hover {
+			color: #ffffff;
+		}
+	}
+}

@@ -1,0 +1,46 @@
+//----FONTS----//
+$base-font-size: 18;
+$base-line-height: 30;
+
+//----[Headers size]-----//
+$h1: 46;
+$h1_lh: 80;
+
+$h2: 40;
+$h2_lh: 68;
+
+$h3: 34;
+$h3_lh: 54;
+
+$h4: 28;
+$h4_lh: 45;
+
+$h5: 22;
+$h5_lh: 34;
+
+$h6: 16;
+$h6_lh: 30;
+
+$p: $base-font-size;
+
+//----[Font Weights]----//
+$font-weight-bold: 700;
+$font-weight-semibold: 600;
+$font-weight-medium: 500;
+$font-weight-regular: 400;
+$font-weight-light: 300;
+$font-weight-thin: 100;
+$body-font-weight: 400;
+
+//----font-weight----/
+$p-weight: $font-weight-regular;
+$h-weight: $font-weight-bold;
+$h1-weight: 400;
+$h2-weight: 400;
+$h3-weight: 400;
+$h4-weight: 400;
+$h5-weight: 400;
+$h6-weight: 400;
+$quote-weight: $font-weight-light;
+$btn-weight: $font-weight-regular;
+$nav-weight: 600;

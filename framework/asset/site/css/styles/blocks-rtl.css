@@ -1,0 +1,131 @@
+/* Responsive media query mixins */
+.wp-block-pullquote {
+  padding: 1.4074133333rem 1.6666666667rem;
+  text-align: center;
+}
+
+.post-content ul.wp-block-gallery:not(.alignfull):not(.alignwide),
+.wp-block-gallery:not(.alignfull):not(.alignwide) {
+  padding: 0;
+  margin-right: 0;
+}
+
+.wp-block-audio audio {
+  width: 100%;
+}
+
+.wp-block-cover-image {
+  margin-top: 2.2em;
+  margin-bottom: 2.1em;
+}
+
+ul.wp-block-gallery.alignfull {
+  margin-right: 50%;
+  padding-right: 0;
+}
+
+.alignwide {
+  max-width: inherit;
+}
+
+.alignfull {
+  width: 100vw;
+  margin-right: 50%;
+  max-width: inherit;
+  -webkit-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+      transform: translateX(50%);
+}
+
+.edit-post-visual-editor .alignfull {
+  margin-bottom: 0;
+  width: 100%;
+}
+
+#page .aligncenter {
+  clear: both;
+  margin: 0 auto 1.6666666667rem auto;
+}
+
+.wp-block-columns .wp-block-column:first-child {
+  margin-right: 0;
+}
+
+.wp-block-columns .wp-block-column {
+  margin-right: 1.6666666667rem;
+}
+
+/*
+Color & Background for GB
+*/
+.has-cl-dima-main-color {
+  color: #ffe082;
+}
+
+.has-cl-dima-main-background-color {
+  background-color: #ffe082;
+}
+
+.has-cl-dima-white-color {
+  color: #ffffff;
+}
+
+.has-cl-dima-white-background-color {
+  background-color: #ffffff;
+}
+
+.has-cl-dima-paragraph-color {
+  color: #616161;
+}
+
+.has-cl-dima-paragraph-background-color {
+  background-color: #616161;
+}
+
+.has-cl-dima-headline-color {
+  color: #222222;
+}
+
+.has-cl-dima-headline-background-color {
+  background-color: #222222;
+}
+
+.has-cl-dima-border-color {
+  color: #e0e0e0;
+}
+
+.has-cl-dima-border-background-color {
+  background-color: #e0e0e0;
+}
+
+.has-cl-dima-error-color {
+  color: #f44336;
+}
+
+.has-cl-dima-error-background-color {
+  background-color: #f44336;
+}
+
+.has-cl-dima-info-color {
+  color: #2196f3;
+}
+
+.has-cl-dima-info-background-color {
+  background-color: #2196f3;
+}
+
+.has-cl-dima-warning-color {
+  color: #ffc107;
+}
+
+.has-cl-dima-warning-background-color {
+  background-color: #ffc107;
+}
+
+.has-cl-dima-success-color {
+  color: #4caf50;
+}
+
+.has-cl-dima-success-background-color {
+  background-color: #4caf50;
+}

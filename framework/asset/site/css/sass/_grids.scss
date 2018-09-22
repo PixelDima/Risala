@@ -1,0 +1,66 @@
+@mixin columns($num: 1, $width: $MediumDevices) {
+	$contentWidth: $width + 2 * $gutter;
+	$single: ($width - $gutter * ($columns - 1)) / $columns;
+	max-width: $single * $num + $gutter * ($num - 1);
+}
+
+body {
+	overflow-x: hidden;
+	margin: 0 auto;
+	background: $body-bg-color;
+}
+
+.container {
+	position: relative;
+	@include columns($columns, $MediumDevices);
+	margin: 0 auto;
+	clear: both;
+	width: 100%;
+
+	@include break(sd-max) {
+		width: 90%;
+	}
+
+	@include break(ld-min) {
+		@include columns($columns, $LargeDevices);
+	}
+
+	@include break(xld-min) {
+		@include columns($columns, $ExtraLargeDevices);
+	}
+}
+
+.page-section-content {
+	position: relative;
+	width: 100%;
+	padding: $section-padding 0;
+	@extend %clearfix;
+
+	@include break(tablet) {
+		padding: $section-padding-small 0;
+	}
+}
+
+.dima-container {
+	width: percentage(870 / $contentWidth);
+
+	&.full {
+		width: 100%;
+	}
+}
+
+body {
+
+	#content .dima-sidebar,
+	#content .dima-container {
+		@include break(sd-max) {
+			width: 100%;
+		}
+	}
+}
+
+.mini-width {
+	position: relative;
+	width: 66.66667%;
+	margin: 0 auto;
+}

@@ -1,0 +1,494 @@
+@mixin opacity($o) {
+	$IEValue: $o * 100;
+	opacity: $o;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity="+$IEValue+")";
+	filter: alpha(opacity=$IEValue);
+}
+
+@mixin border-radius($r) {
+	-webkit-border-radius: $r;
+	-moz-border-radius: $r;
+	-ms-border-radius: $r;
+	border-radius: $r;
+}
+
+@mixin inline($mr) {
+	li {
+		display: inline-block;
+		@include margin-end($mr);
+
+		&:last-child {
+			@include margin-end(0);
+		}
+	}
+}
+
+@mixin headings($from: 1, $to: 6) {
+	@for $i from $from through $to {
+		h#{$i} {
+			@content
+		}
+	}
+}
+
+@mixin white-space($wrap-space) {
+	@if $wrap-space=='pre-wrap' {
+		white-space: #{-moz-}$wrap-space; // Firefox 1.0-2.0
+		white-space: $wrap-space; // current browsers
+	}
+
+	@else {
+		white-space: $wrap-space;
+	}
+}
+
+@mixin baseline($font-size: $base-font-size) {
+	html {
+		font-size: 100%;
+	}
+
+	html {
+		font-size: $font-size;
+		@include adjust-leading-to(1, if($relative-font-sizing, $font-size, $base-font-size));
+	}
+}
+
+@mixin font-size($size: 1.6, $line: $size*1.5) {
+	font-size: ($size) + px;
+	line-height: ($line) + px;
+	//font-size: $size/16 + rem;
+	//line-height: $line/16 + rem;
+}
+
+@mixin transition-duration($transition) {
+	-webkit-transition-duration: $transition;
+	-moz-transition-duration: $transition;
+	-o-transition-duration: $transition;
+	-ms-transition-duration: $transition;
+	transition-duration: $transition;
+}
+
+@mixin transition($transition) {
+	-webkit-transition: $transition;
+	-moz-transition: $transition;
+	-o-transition: $transition;
+	-ms-transition: $transition;
+	transition: $transition;
+}
+
+@mixin opacity($o) {
+	$IEValue: $o* 100;
+	opacity: $o;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity="+$IEValue+")";
+	filter: alpha(opacity=$IEValue);
+}
+
+@mixin border-radius($r) {
+	-webkit-border-radius: $r;
+	-moz-border-radius: $r;
+	-ms-border-radius: $r;
+	border-radius: $r;
+}
+
+@mixin transition($t...) {
+	-webkit-transition: $t;
+	-moz-transition: $t;
+	-o-transition: $t;
+	transition: $t;
+}
+
+@mixin transform($transform) {
+	-webkit-transform: $transform;
+	-moz-transform: $transform;
+	-o-transform: $transform;
+	-ms-transform: $transform;
+	transform: $transform;
+}
+
+@mixin animation($delay, $duration) {
+	-webkit-animation-delay: $delay;
+	-webkit-animation-duration: $duration;
+	-webkit-animation-fill-mode: forwards; // this prevents the animation from restarting!//
+	-moz-animation-delay: $delay;
+	-moz-animation-duration: $duration;
+	-moz-animation-fill-mode: forwards; // this prevents the animation from restarting!//
+	-o-animation-delay: $delay;
+	-o-animation-duration: $duration;
+	-o-animation-fill-mode: forwards; // this prevents the animation from restarting!//
+	animation-delay: $delay;
+	animation-duration: $duration;
+	animation-fill-mode: forwards; // this prevents the animation from restarting!//
+}
+
+@mixin animation-content($content) {
+	-webkit-animation: $content;
+	-moz-animation: $content;
+	-o-animation: $content;
+	animation: $content;
+}
+
+@mixin keyframes($name) {
+	@-webkit-keyframes #{$name} {
+		@content;
+	}
+
+	@-moz-keyframes #{$name} {
+		@content;
+	}
+
+	@-o-keyframes #{$name} {
+		@content;
+	}
+
+	@keyframes #{$name} {
+		@content;
+	}
+}
+
+@mixin box-shadow($shadow1, $shadow2:false, $shadow3:false) {
+	$shadows: $shadow1;
+
+	@if $shadow2 {
+		$shadows: $shadow1, $shadow2;
+	}
+
+	@if $shadow3 {
+		$shadows: $shadow1, $shadow2, $shadow3;
+	}
+
+	-webkit-box-shadow: $shadows;
+	-moz-box-shadow: $shadows;
+	box-shadow: $shadows;
+}
+
+@mixin box-sizing($box-model) {
+	-webkit-box-sizing: $box-model; // Safari <= 5
+	-moz-box-sizing: $box-model; // Firefox <= 19
+	box-sizing: $box-model;
+}
+
+@mixin user-select($select) {
+	-webkit-touch-callout: $select;
+	-webkit-user-select: $select;
+	-moz-user-select: $select;
+	-ms-user-select: $select;
+	user-select: $select;
+}
+
+@mixin background-size($width, $height) {
+	-webkit-background-size: $width $height;
+	-moz-background-size: $width $height;
+	background-size: $width $height;
+}
+
+@mixin translate($x, $y) {
+	-webkit-transform: translate($x, $y);
+	-ms-transform: translate($x, $y); // IE9 only
+	-o-transform: translate($x, $y);
+	transform: translate($x, $y);
+}
+
+@mixin translate3d($x, $y, $z) {
+	-webkit-transform: translate3d($x, $y, $z);
+	transform: translate3d($x, $y, $z);
+}
+
+@mixin rotate($degrees) {
+	@if $global-direction=="rtl" {
+		$degrees: $degrees // -1;
+	}
+
+	-webkit-transform: rotate($degrees);
+	-ms-transform: rotate($degrees); // IE9 only
+	-o-transform: rotate($degrees);
+	transform: rotate($degrees);
+}
+
+@mixin rotateX($degrees) {
+	-webkit-transform: rotateX($degrees);
+	-ms-transform: rotateX($degrees); // IE9 only
+	-o-transform: rotateX($degrees);
+	transform: rotateX($degrees);
+}
+
+@mixin rotateY($degrees) {
+	-webkit-transform: rotateY($degrees);
+	-ms-transform: rotateY($degrees); // IE9 only
+	-o-transform: rotateY($degrees);
+	transform: rotateY($degrees);
+}
+
+@mixin transition-transform($transition...) {
+	-webkit-transition: -webkit-transform $transition;
+	-moz-transition: -moz-transform $transition;
+	-o-transition: -o-transform $transition;
+	transition: transform $transition;
+}
+
+@mixin background-image-retina($file, $type, $width, $height) {
+	background-image: url($file + '.'+ $type);
+
+	@media only screen and (-webkit-min-device-pixel-ratio: 2),
+		only screen and (-moz-min-device-pixel-ratio: 2),
+		only screen and (-o-min-device-pixel-ratio: 2/1),
+		only screen and (min-device-pixel-ratio: 2),
+		only screen and (min-resolution: 192dpi),
+		only screen and (min-resolution: 2dppx) {
+		& {
+			background-image: url($file + '@2x.'+ $type);
+			-webkit-background-size: $width $height;
+			-moz-background-size: $width $height;
+			-o-background-size: $width $height;
+			background-size: $width $height;
+		}
+	}
+}
+
+@function str-replace($string, $search, $replace: '') {
+	$index: str-index($string, $search);
+
+	@if $index {
+		@return str-slice($string, 1, $index - 1)+$replace+str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+	}
+
+	@return $string;
+}
+
+@function svg-uri($svg) {
+	$encoded: '';
+	$slice: 2000;
+	$index: 0;
+	$loops: ceil(str-length($svg) / $slice);
+
+	@for $i from 1 through $loops {
+		$chunk: str-slice($svg, $index, $index + $slice - 1);
+		$chunk: str-replace($chunk, '"', "'");
+		$chunk: str-replace($chunk, '<', '%3C');
+		$chunk: str-replace($chunk, '>', '%3E');
+		$chunk: str-replace($chunk, '&', '%26');
+		$chunk: str-replace($chunk, '#', '%23');
+		$encoded: #{$encoded}#{$chunk};
+		$index: $index + $slice;
+	}
+
+	@return url("data:image/svg+xml;charset=utf8,#{$encoded}");
+}
+
+// Linear-gradient
+@function convert-angle($value, $unit) {
+	$convertable-units: deg grad turn rad;
+	$conversion-factors: 1 (10grad/9deg) (1turn/360deg) (3.1415926rad/180deg);
+
+	@if index($convertable-units, unit($value)) and index($convertable-units, $unit) {
+		@return $value / nth($conversion-factors, index($convertable-units, unit($value))) * nth($conversion-factors, index($convertable-units, $unit));
+	}
+
+	@warn "Cannot convert `#{unit($value)}` to `#{$unit}`.";
+}
+
+@function is-direction($value) {
+	$is-direction: index((to top, to top right, to right top, to right, to bottom right, to right bottom, to bottom, to bottom left, to left bottom, to left, to left top, to top left), $value);
+	$is-angle: type-of($value)=='number'and index('deg''grad''turn''rad', unit($value));
+	@return $is-direction or $is-angle;
+}
+
+@function legacy-direction($value) {
+	@if is-direction($value)==false {
+		@warn "Cannot convert `#{$value}` to legacy syntax because it doesn't seem to be an angle or a direction";
+	}
+
+	$conversion-map: (to top : bottom,
+	to top right : bottom left,
+	to right top : left bottom,
+	to right : left,
+	to bottom right : top left,
+	to right bottom : left top,
+	to bottom : top,
+	to bottom left : top right,
+	to left bottom : right top,
+	to left : right,
+	to left top : right bottom,
+	to top left : bottom right);
+
+	@if map-has-key($conversion-map, $value) {
+		@return map-get($conversion-map, $value);
+	}
+
+	@return 90deg - convert-angle($value, 'deg');
+}
+
+@mixin linear-gradient($direction, $color-stops...) {
+	@if is-direction($direction)==false {
+		$color-stops: ($direction, $color-stops);
+		$direction: 180deg;
+	}
+
+	background: nth(nth($color-stops, 1), 1);
+	background: -webkit-linear-gradient(legacy-direction($direction), $color-stops);
+	background: linear-gradient($direction, $color-stops);
+}
+
+@mixin optional-at-root($sel) {
+	@at-root #{if(not &, $sel, selector-append(&, $sel))} {
+		@content;
+	}
+}
+
+@mixin placeholder {
+	@include optional-at-root('::-webkit-input-placeholder') {
+		@content;
+	}
+
+	@include optional-at-root(':-moz-placeholder') {
+		@content;
+	}
+
+	@include optional-at-root('::-moz-placeholder') {
+		@content;
+	}
+
+	@include optional-at-root(':-ms-input-placeholder') {
+		@content;
+	}
+}
+
+@mixin sp_border_bottom($sp, $font_size:0, $line_height:0) {
+	border-bottom: px-to-rem($sp - ($line_height - $font_size) /2) solid transparent;
+}
+
+/* Responsive media query mixins */
+@mixin break($point) {
+	@if $point==desktop {
+		@media (min-width: $screen-sd-max) {
+			@content;
+		}
+	}
+
+	@else if $point==tablet {
+		@media (max-width: $screen-sd-max) {
+			@content;
+		}
+	}
+
+	@else if $point==mobile {
+		@media (max-width: $screen-sd-min) {
+			@content;
+		}
+	}
+
+	@if $point==xsd-min {
+		@media only screen and (max-width: $screen-xsd-min) {
+			@content;
+		}
+	}
+
+	@if $point==sd-min {
+		@media only screen and (max-width: $screen-sd-min) {
+			@content;
+		}
+	}
+
+	@if $point==sd-max {
+		@media only screen and (max-width: $screen-sd-max) {
+			@content;
+		}
+	}
+
+	@if $point==xlld-max {
+		@media only screen and (max-width: $screen-xlld-max - 1) {
+			@content;
+		}
+	}
+
+	@if $point==xlld-min {
+		@media only screen and (max-width: $screen-xlld-min - 1) {
+			@content;
+		}
+	}
+
+	@if $point==xlld-max {
+		@media only screen and (max-width: $screen-xlld-max) {
+			@content;
+		}
+	}
+
+	@if $point==sd-min-sd-max {
+		@media only screen and (min-width: $screen-sd-min) and (max-width: $screen-sd-max) {
+			@content;
+		}
+	}
+
+	@if $point==xsd-min-sd-max {
+		@media only screen and (min-width: $screen-xsd-min) and (max-width: $screen-sd-max) {
+			@content;
+		}
+	}
+
+	@if $point==ld-min {
+		@media only screen and (min-width: $screen-ld-min) {
+			@content;
+		}
+	}
+
+	@if $point==xld-min {
+		@media only screen and (min-width: $screen-xld-min) {
+			@content;
+		}
+	}
+
+	@if $point==v-sd-min-sd-max {
+		@media only screen and (min-width: $screen-sd-min) and (max-width: $screen-sd-max + $navbar-vertical-w) {
+			@content;
+		}
+	}
+}
+
+@mixin btn_padding($padding, $min-width) {
+	min-width: $min-width;
+
+	@if $padding !="" {
+		padding: $padding;
+	}
+}
+
+// Spinner Cirlce Width
+@mixin spinner-width($spinner-width) {
+	.spinner-circle {
+		top: - $spinner-width / 2;
+		left: - $spinner-width / 2;
+		height: $spinner-width;
+		width: $spinner-width;
+		clip: rect(0, $spinner-width, $spinner-width, ($spinner-width / 2));
+
+		&:after {
+			left: 0;
+			top: 0;
+			height: $spinner-width;
+			width: $spinner-width;
+			clip: rect(0, $spinner-width, $spinner-width, ($spinner-width / 2))
+		}
+	}
+}
+
+// center vertically and/or horizontally an absolute positioned element
+@mixin center($xy:xy) {
+	@if $xy==xy {
+		left: 50%;
+		top: 50%;
+		bottom: auto;
+		right: auto;
+		transform: translateX(-50%) translateY(-50%);
+	}
+
+	@else if $xy==x {
+		left: 50%;
+		right: auto;
+		transform: translateX(-50%);
+	}
+
+	@else if $xy==y {
+		top: 50%;
+		bottom: auto;
+		transform: translateY(-50%);
+	}
+}

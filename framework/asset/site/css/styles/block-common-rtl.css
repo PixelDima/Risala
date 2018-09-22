@@ -1,0 +1,79 @@
+/* Responsive media query mixins */
+/*
+Styles for the block editor and front end
+*/
+ul.alignfull,
+ul.alignwide,
+.alignfull,
+.alignwide {
+  margin-bottom: 2em;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+ul.alignfull img,
+ul.alignwide img,
+.alignfull img,
+.alignwide img {
+  width: 100%;
+  display: block;
+}
+
+p + .alignfull,
+p + .alignwide {
+  margin-top: 1.6666666667rem;
+}
+
+.wp-block-image {
+  margin-bottom: 1.6666666667rem;
+}
+
+.wp-block-image.aligncenter {
+  margin: 1.6666666667rem auto;
+}
+
+@media (min-width: 989px) {
+  .gutenberg .wp-block-gallery.alignwide,
+  .wp-block-gallery.alignwide,
+  .alignwide {
+    width: 75vw;
+    margin-right: 50%;
+    -webkit-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+        transform: translateX(50%);
+  }
+}
+
+.edit-post-visual-editor .gutenberg .wp-block-gallery.alignwide, .edit-post-visual-editor
+.wp-block-gallery.alignwide, .edit-post-visual-editor
+.alignwide {
+  margin-bottom: 0;
+  width: 58vw;
+}
+
+@media only screen and (max-width: 1300px) {
+  .edit-post-visual-editor .gutenberg .wp-block-gallery.alignwide, .edit-post-visual-editor
+  .wp-block-gallery.alignwide, .edit-post-visual-editor
+  .alignwide {
+    width: 100%;
+  }
+}
+
+.gutenberg .wp-block-gallery.alignwide.wp-block-gallery,
+.wp-block-gallery.alignwide.wp-block-gallery,
+.alignwide.wp-block-gallery {
+  width: 75vw;
+}
+
+@media (max-width: 989px) {
+  .gutenberg .wp-block-gallery.alignwide,
+  .wp-block-gallery.alignwide,
+  .alignwide {
+    width: 100%;
+  }
+  .gutenberg .wp-block-gallery.alignwide.wp-block-gallery,
+  .wp-block-gallery.alignwide.wp-block-gallery,
+  .alignwide.wp-block-gallery {
+    width: 100%;
+  }
+}

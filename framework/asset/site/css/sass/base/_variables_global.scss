@@ -1,0 +1,42 @@
+$columns: 12 !default;
+$gutter: 30px !default;
+$contentWidth: 1170 !default;
+
+// Container width *
+$ExtraLargeDevices: 1170px !default;
+$LargeDevices: 1170px !default;
+$MediumDevices: 970px !default;
+$SmallDevices: 722px !default;
+//  Breakpoint *
+$screen-xld-min: 1600px !default;
+$screen-ld-min: 1140px !default;
+$screen-sd-max: 989px !default;
+$screen-sd-min: 679px !default;
+$screen-xsd-min: 480px !default;
+
+$screen-xlld-max: 1700px !default;
+$screen-xlld-min: 1500px !default;
+
+//Spaces by px
+$sp_small_footer: 10 !default;
+
+$sp_conected_elms: 20 !default;
+
+$sp_elms: 30 !default;
+$sp_elms_sd: 20 !default;
+
+$sp_blocks: 40 !default; // portfolio massonry
+$sp_blocks_sd: 30 !default;
+
+$sp_small: 60 !default; //blog, blog massonry,portfolio filters
+$sp_small_sd: 40 !default;
+
+$sp_medium: 120 !default;
+$sp_medium_sd: 80 !default;
+
+$sp_big: 150 !default;
+$sp_big_sd: 100 !default;
+$quote_size: 16;
+
+
+

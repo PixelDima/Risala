@@ -1,0 +1,125 @@
+// Returns the opposite value of `$value`
+// @param {*} $value
+// @return {*}
+@function opposite-value($value) {
+  @return if(index(left right, $value), if($value == left, right, left), $value);
+}
+
+// Set up the global configuration
+// @return Map
+@function direction-configuration() {
+  $global-side: if($global-direction == "rtl", right, left);
+  $opposite-global-side: opposite-value($global-side);
+
+  @return (
+          direction: $global-direction,
+          side: $global-side,
+          opposite-side: $opposite-global-side
+  );
+}
+$direction-configuration: direction-configuration() !global;
+
+// Define a directional value
+// @param {*} $value
+// @return {*}
+@function directional-side($value) {
+  $global-side: map-get($direction-configuration, "side");
+  @return if($global-side == $value, $value, opposite-value($value));
+}
+
+
+@mixin text_align_start() {
+  $global-side: map-get($direction-configuration, "side");
+  text-align: #{$global-side};
+}
+@mixin text_align_end() {
+  $opposite-global-side: map-get($direction-configuration, "opposite-side");
+  text-align: #{$opposite-global-side};
+}
+
+@mixin float_start() {
+  $global-side: map-get($direction-configuration, "side");
+  float: #{$global-side};
+}
+@mixin float_end() {
+  $opposite-global-side: map-get($direction-configuration, "opposite-side");
+  float: #{$opposite-global-side};
+}
+
+@mixin clear_start() {
+  $global-side: map-get($direction-configuration, "side");
+  clear: #{$global-side};
+}
+@mixin clear_end() {
+  $opposite-global-side: map-get($direction-configuration, "opposite-side");
+  clear: #{$opposite-global-side};
+}
+
+@mixin border_radius_start($radius: 4px) {
+  $global-side: map-get($direction-configuration, "side");
+  border-top-#{$global-side}-radius: $radius;
+  border-bottom-#{$global-side}-radius: $radius;
+}
+
+@mixin border_radius_end($radius: 4px) {
+  $global-side: map-get($direction-configuration, "side");
+  border-top-#{$global-side}-radius: $radius;
+  border-bottom-#{$global-side}-radius: $radius;
+}
+
+@mixin border-start($value) {
+  $global-side: map-get($direction-configuration, "side");
+  border-#{$global-side}: $value;
+}
+@mixin border-start-width($value) {
+  $global-side: map-get($direction-configuration, "side");
+  border-#{$global-side}-width: $value;
+}
+
+@mixin border-end($value) {
+  $opposite-global-side: map-get($direction-configuration, "opposite-side");
+  border-#{$opposite-global-side}: $value;
+}
+@mixin border-end-width($value) {
+  $opposite-global-side: map-get($direction-configuration, "opposite-side");
+  border-#{$opposite-global-side}-width: $value;
+}
+
+@mixin padding-start($value) {
+  $global-side: map-get($direction-configuration, "side");
+  padding-#{$global-side}: $value;
+}
+
+
+@mixin padding-end($value) {
+  $opposite-global-side: map-get($direction-configuration, "opposite-side");
+  padding-#{$opposite-global-side}: $value;
+}
+
+@mixin margin-start($value) {
+  $global-side: map-get($direction-configuration, "side");
+  margin-#{$global-side}: $value;
+}
+
+@mixin margin-end($value) {
+  $opposite-global-side: map-get($direction-configuration, "opposite-side");
+  margin-#{$opposite-global-side}: $value;
+}
+
+@mixin start($value) {
+  $global-side: map-get($direction-configuration, "side");
+  #{$global-side}: $value;
+}
+@mixin end($value) {
+  $opposite-global-side: map-get($direction-configuration, "opposite-side");
+  #{$opposite-global-side}: $value;
+}
+
+@mixin border-start-color($value){
+  $global-side: map-get($direction-configuration, "side");
+  border-#{$global-side}-color:$value;
+}
+@mixin border-end-color($value){
+  $opposite-global-side: map-get($direction-configuration, "opposite-side");
+  border-#{$opposite-global-side}-color:$value;
+}

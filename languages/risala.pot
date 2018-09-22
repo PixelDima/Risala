@@ -1,0 +1,1207 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Risala 1.0.0\n"
+"Report-Msgid-Bugs-To: PixelDima <translations@example.com>\n"
+"POT-Creation-Date: 2018-09-22 23:28+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: PixelDima <you@example.com>\n"
+"Language-Team: PixelDima\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;"
+"_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: data\n"
+"X-Poedit-SearchPathExcluded-2: framework/functions/admin/tmg/*.php\n"
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:19
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:20
+msgid "404"
+msgstr ""
+
+#: comments.php:33
+msgid "Comments"
+msgstr ""
+
+#: comments.php:52
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:53
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:54
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:61
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:67
+#, php-format
+msgid "You must be %slogged in%s to post a comment."
+msgstr ""
+
+#: comments.php:68
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:68
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:68
+msgid "Log out &raquo;"
+msgstr ""
+
+#: comments.php:69
+msgid "cancel reply"
+msgstr ""
+
+#: comments.php:72
+msgid "Post comment"
+msgstr ""
+
+#: comments.php:74
+msgid "Leave a Reply"
+msgstr ""
+
+#: framework/functions/admin/customizer/choices.php:37
+msgid "On"
+msgstr ""
+
+#: framework/functions/admin/customizer/choices.php:38
+msgid "Off"
+msgstr ""
+
+#: framework/functions/admin/customizer/choices.php:42
+msgid "start"
+msgstr ""
+
+#: framework/functions/admin/customizer/choices.php:43
+msgid "End"
+msgstr ""
+
+#: framework/functions/admin/customizer/choices.php:47
+msgid "No Sidebar"
+msgstr ""
+
+#: framework/functions/admin/customizer/choices.php:48
+msgid "Right Sidebar"
+msgstr ""
+
+#: framework/functions/admin/customizer/choices.php:49
+msgid "Left Sidebar"
+msgstr ""
+
+#: framework/functions/admin/customizer/choices.php:50
+msgid "Mini"
+msgstr ""
+
+#: framework/functions/admin/customizer/choices.php:54
+msgid "Bold"
+msgstr ""
+
+#: framework/functions/admin/customizer/choices.php:55
+msgid "Italic"
+msgstr ""
+
+#: framework/functions/admin/customizer/choices.php:56
+msgid "Uppercase"
+msgstr ""
+
+#: framework/functions/admin/customizer/choices.php:57
+msgid "Underline"
+msgstr ""
+
+#: framework/functions/admin/customizer/include/controls/typography/dima_custom_control_typography.php:69
+msgid "Default"
+msgstr ""
+
+#: framework/functions/admin/customizer/include/controls/typography/dima_custom_control_typography.php:72
+msgid "Standard Fonts"
+msgstr ""
+
+#: framework/functions/admin/customizer/include/controls/typography/dima_custom_control_typography.php:83
+#: framework/functions/admin/customizer/register.php:366
+msgid "Google Fonts"
+msgstr ""
+
+#: framework/functions/admin/customizer/include/fonts.php:7563
+msgid "Inherit"
+msgstr ""
+
+#: framework/functions/admin/customizer/include/fonts.php:7583
+msgid "Arabic"
+msgstr ""
+
+#: framework/functions/admin/customizer/include/fonts.php:7584
+msgid "Hebrew"
+msgstr ""
+
+#: framework/functions/admin/customizer/include/fonts.php:7585
+msgid "Latin"
+msgstr ""
+
+#: framework/functions/admin/customizer/include/fonts.php:7586
+msgid "Latin Extended "
+msgstr ""
+
+#: framework/functions/admin/customizer/include/fonts.php:7587
+msgid "Greek"
+msgstr ""
+
+#: framework/functions/admin/customizer/include/fonts.php:7588
+msgid "Greek Extended "
+msgstr ""
+
+#: framework/functions/admin/customizer/include/fonts.php:7589
+msgid "Cyrillic"
+msgstr ""
+
+#: framework/functions/admin/customizer/include/fonts.php:7590
+msgid "Cyrillic Extended "
+msgstr ""
+
+#: framework/functions/admin/customizer/include/fonts.php:7591
+msgid "Japanese "
+msgstr ""
+
+#: framework/functions/admin/customizer/include/fonts.php:7592
+msgid "vietnamese"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:131
+#: framework/functions/admin/customizer/register.php:132
+msgid "Site Layout and design"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:139
+#: framework/functions/admin/customizer/register.php:140
+msgid "Typography"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:147
+msgid "Demos"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:154
+msgid "Layout Settings"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:161
+msgid "Site Style"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:168
+msgid "General Typography"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:175
+msgid "Body"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:181
+msgid "Menu"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:187
+msgid "Sidebar"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:194
+msgid "All Heading"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:201
+msgid "Heading H1"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:208
+msgid "Heading H2"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:214
+msgid "Heading H3"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:220
+msgid "Heading H4"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:226
+msgid "Heading H5"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:232
+msgid "Heading H6"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:238
+msgid "Logo"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:244
+msgid "Button"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:249
+msgid "Custom JavaScript"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:258
+msgid "Content Style"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:261
+msgid "Cards"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:262
+msgid "Clean"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:271
+msgid "Content Layout"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:281
+msgid "Site Content Width (%)"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:291
+msgid "Site Max Content Width (px)"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:301
+msgid "Site Sidebar Width (px)"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:315
+#: framework/functions/admin/customizer/register.php:324
+msgid "Website Background Color"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:333
+msgid "Main color"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:335
+msgid ""
+"This color will be applied to call to action elements such as buttons and hover "
+"icons. It's preferable to be attractive color and define the main color of your "
+"website."
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:342
+msgid "Copyright Content"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:351
+msgid "Logo Width (px)"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:376
+msgid "Font Subsets"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:386
+#: framework/functions/admin/customizer/register.php:465
+#: framework/functions/admin/customizer/register.php:541
+#: framework/functions/admin/customizer/register.php:611
+#: framework/functions/admin/customizer/register.php:680
+#: framework/functions/admin/customizer/register.php:749
+#: framework/functions/admin/customizer/register.php:818
+#: framework/functions/admin/customizer/register.php:887
+#: framework/functions/admin/customizer/register.php:957
+#: framework/functions/admin/customizer/register.php:1027
+#: framework/functions/admin/customizer/register.php:1077
+msgid "Font Family"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:396
+#: framework/functions/admin/customizer/register.php:482
+#: framework/functions/admin/customizer/register.php:552
+#: framework/functions/admin/customizer/register.php:621
+#: framework/functions/admin/customizer/register.php:690
+#: framework/functions/admin/customizer/register.php:759
+#: framework/functions/admin/customizer/register.php:828
+#: framework/functions/admin/customizer/register.php:897
+#: framework/functions/admin/customizer/register.php:967
+#: framework/functions/admin/customizer/register.php:1037
+#: framework/functions/admin/customizer/register.php:1087
+msgid "Font Variants"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:406
+#: framework/functions/admin/customizer/register.php:492
+#: framework/functions/admin/customizer/register.php:562
+#: framework/functions/admin/customizer/register.php:631
+#: framework/functions/admin/customizer/register.php:700
+#: framework/functions/admin/customizer/register.php:769
+#: framework/functions/admin/customizer/register.php:838
+#: framework/functions/admin/customizer/register.php:907
+#: framework/functions/admin/customizer/register.php:1047
+msgid "Font Weights"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:409
+#: framework/functions/admin/customizer/register.php:495
+#: framework/functions/admin/customizer/register.php:565
+#: framework/functions/admin/customizer/register.php:634
+#: framework/functions/admin/customizer/register.php:703
+#: framework/functions/admin/customizer/register.php:772
+#: framework/functions/admin/customizer/register.php:841
+#: framework/functions/admin/customizer/register.php:910
+#: framework/functions/admin/customizer/register.php:980
+#: framework/functions/admin/customizer/register.php:1050
+#: framework/functions/admin/customizer/register.php:1100
+msgid "Important: Not all fonts support every font-weight."
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:416
+msgid "Body Font Size"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:418
+msgid "You can add: px-em-%"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:425
+msgid "Body text color"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:434
+msgid "Text Link color"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:436
+msgid ""
+"This color will be applied to the important text links in your website and it's "
+"preferable to be like your website main color."
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:443
+msgid "Text Link Hover color"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:455
+#: framework/functions/admin/customizer/register.php:531
+#: framework/functions/admin/customizer/register.php:601
+#: framework/functions/admin/customizer/register.php:670
+#: framework/functions/admin/customizer/register.php:739
+#: framework/functions/admin/customizer/register.php:808
+#: framework/functions/admin/customizer/register.php:877
+msgid "Heading Font Style"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:502
+#: framework/functions/admin/customizer/register.php:572
+#: framework/functions/admin/customizer/register.php:641
+#: framework/functions/admin/customizer/register.php:710
+#: framework/functions/admin/customizer/register.php:779
+#: framework/functions/admin/customizer/register.php:848
+#: framework/functions/admin/customizer/register.php:917
+#: framework/functions/admin/customizer/register.php:996
+#: framework/functions/admin/customizer/register.php:1066
+msgid "Letter Spacing"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:511
+#: framework/functions/admin/customizer/register.php:581
+#: framework/functions/admin/customizer/register.php:650
+#: framework/functions/admin/customizer/register.php:719
+#: framework/functions/admin/customizer/register.php:788
+#: framework/functions/admin/customizer/register.php:857
+#: framework/functions/admin/customizer/register.php:926
+#: framework/functions/admin/customizer/register.php:1057
+msgid "Font Size"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:520
+#: framework/functions/admin/customizer/register.php:590
+#: framework/functions/admin/customizer/register.php:659
+#: framework/functions/admin/customizer/register.php:728
+#: framework/functions/admin/customizer/register.php:797
+#: framework/functions/admin/customizer/register.php:866
+#: framework/functions/admin/customizer/register.php:935
+msgid "Headings color"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:947
+msgid "Logo Font Style"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:977
+msgid "Logo Font Weights"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:987
+msgid "Logo Font Size"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:1005
+msgid "Logo Text Color"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:1017
+msgid "Font Style"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:1097
+msgid "Button Font Weights"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:1107
+msgid "Button Font Size"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:1120
+msgid "JavaScript"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:1176
+msgid "Get More Themes"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:334
+#: framework/functions/admin/includes/tmg/registration.php:75
+msgid "Install Required Plugins"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:335
+#: framework/functions/admin/includes/tmg/registration.php:76
+msgid "Install Plugins"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:337
+#: framework/functions/admin/includes/tmg/registration.php:77
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:340
+#: framework/functions/admin/includes/tmg/registration.php:78
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:343
+#: framework/functions/admin/includes/tmg/registration.php:79
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:349
+#: framework/functions/admin/includes/tmg/registration.php:80
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:355
+#: framework/functions/admin/includes/tmg/registration.php:85
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:367
+#: framework/functions/admin/includes/tmg/registration.php:82
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:373
+#: framework/functions/admin/includes/tmg/registration.php:83
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:378
+#: framework/functions/admin/includes/tmg/registration.php:87
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:392
+#: framework/functions/admin/includes/tmg/registration.php:89
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:393
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:912
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2618
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:394
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:3244
+#: framework/functions/admin/includes/tmg/registration.php:90
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:395
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. Please "
+"update the plugin."
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug and "
+"renaming did not work."
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:1019
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are not "
+"packaged in a folder."
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:1206
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:3594
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:3594
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/registration.php:81
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/admin/includes/tmg/registration.php:84
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/admin/includes/tmg/registration.php:86
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/admin/includes/tmg/registration.php:88
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/admin/includes/tmg/registration.php:91
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: framework/functions/admin/includes/tmg/updates.php:34
+#, php-format
+msgid "This plugin is bundled with %s."
+msgstr ""
+
+#: framework/functions/scripts.php:96
+msgid "Let&apos;s go!"
+msgstr ""
+
+#: framework/functions/scripts.php:97
+msgid "Working...!"
+msgstr ""
+
+#: framework/functions/scripts.php:98
+msgid "Please wait...!"
+msgstr ""
+
+#: framework/functions/scripts.php:99
+msgid "Hang in there, trying to reconnect..."
+msgstr ""
+
+#: framework/functions/scripts.php:100
+msgid "Experiencing technical difficulties..."
+msgstr ""
+
+#: framework/functions/scripts.php:101
+msgid "We&apos;re sorry, but the demo data could not be imported."
+msgstr ""
+
+#: framework/functions/scripts.php:102
+msgid "All done. Have fun!"
+msgstr ""
+
+#: framework/functions/setup.php:109
+msgid "Primary Menu"
+msgstr ""
+
+#: framework/functions/setup.php:110
+msgid "Social Icon Menu"
+msgstr ""
+
+#: framework/functions/setup.php:113
+msgid "AMP Menu"
+msgstr ""
+
+#: framework/functions/setup.php:136
+msgid "Main"
+msgstr ""
+
+#: framework/functions/setup.php:141
+msgid "white"
+msgstr ""
+
+#: framework/functions/setup.php:146
+msgid "paragraph"
+msgstr ""
+
+#: framework/functions/setup.php:151
+msgid "headline"
+msgstr ""
+
+#: framework/functions/setup.php:156
+msgid "border"
+msgstr ""
+
+#: framework/functions/setup.php:161
+msgid "Error"
+msgstr ""
+
+#: framework/functions/setup.php:166
+msgid "Warning"
+msgstr ""
+
+#: framework/functions/setup.php:171
+msgid "Success"
+msgstr ""
+
+#: framework/functions/setup.php:176
+msgid "Info"
+msgstr ""
+
+#: framework/functions/widgets/widget-about.php:17
+msgid "Displays About Me Information"
+msgstr ""
+
+#: framework/functions/widgets/widget-about.php:21
+#: framework/functions/widgets/widget-about.php:32
+#: framework/functions/widgets/widget-about.php:86
+msgid "About Me"
+msgstr ""
+
+#: framework/functions/widgets/widget-about.php:96
+msgid "Title"
+msgstr ""
+
+#: framework/functions/widgets/widget-about.php:97
+msgid "Image"
+msgstr ""
+
+#: framework/functions/widgets/widget-about.php:98
+msgid "Name"
+msgstr ""
+
+#: framework/functions/widgets/widget-about.php:99
+msgid "Text"
+msgstr ""
+
+#: framework/inc/jetpack.php:70
+msgid "Load more"
+msgstr ""
+
+#: framework/inc/template-tags.php:20
+msgid "By"
+msgstr ""
+
+#: framework/inc/template-tags.php:28
+msgid " Posted on "
+msgstr ""
+
+#: framework/inc/template-tags.php:57
+msgid "Read More..."
+msgstr ""
+
+#: framework/inc/template-tags.php:169 template-parts/content-page.php:19
+msgid "Pages:"
+msgstr ""
+
+#: framework/inc/template-tags.php:240
+msgid "Author: "
+msgstr ""
+
+#: framework/inc/template-tags.php:258
+#, php-format
+msgid "All posts by %s"
+msgstr ""
+
+#: framework/inc/template-tags.php:260
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: framework/inc/template-tags.php:266
+msgid "All Posts"
+msgstr ""
+
+#: framework/inc/template-tags.php:270
+msgid "Website"
+msgstr ""
+
+#: framework/inc/template-tags.php:332
+msgid "Assign a Menu"
+msgstr ""
+
+#: framework/inc/template-tags.php:343
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: framework/inc/template-tags.php:345
+msgid "Page Not Found"
+msgstr ""
+
+#: functions.php:188
+msgid "Main Sidebar"
+msgstr ""
+
+#: functions.php:190
+msgid "Appears on posts and pages that include the sidebar."
+msgstr ""
+
+#: functions.php:200
+msgid "First Footer Area #"
+msgstr ""
+
+#: functions.php:202
+msgid "Widgetized footer area."
+msgstr ""
+
+#: functions.php:249
+msgid "Author"
+msgstr ""
+
+#: functions.php:263
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:269
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:286
+msgid "Reply <span class=\"comment-reply-link-after\"></span>"
+msgstr ""
+
+#: functions.php:296
+msgid "Edit"
+msgstr ""
+
+#: search.php:25 template-parts/content-none.php:38
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: searchform.php:11
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:12
+msgid "Search here..."
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:25
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching "
+"can help."
+msgstr ""
+
+#: template-parts/content.php:38
+#, php-format
+msgid "View all posts in: &ldquo;%s&rdquo;"
+msgstr ""
+
+#: template-parts/content.php:58
+#, php-format
+msgid "Permalink to: \"%s\""
+msgstr ""
