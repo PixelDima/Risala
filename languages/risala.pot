@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Risala 1.0.0\n"
 "Report-Msgid-Bugs-To: PixelDima <translations@example.com>\n"
-"POT-Creation-Date: 2018-09-22 23:28+0100\n"
+"POT-Creation-Date: 2018-10-01 22:31+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: PixelDima <you@example.com>\n"
 "Language-Team: PixelDima\n"
@@ -489,17 +489,17 @@ msgid "Get More Themes"
 msgstr ""
 
 #: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:334
-#: framework/functions/admin/includes/tmg/registration.php:75
+#: framework/functions/admin/includes/tmg/registration.php:74
 msgid "Install Required Plugins"
 msgstr ""
 
 #: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:335
-#: framework/functions/admin/includes/tmg/registration.php:76
+#: framework/functions/admin/includes/tmg/registration.php:75
 msgid "Install Plugins"
 msgstr ""
 
 #: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:337
-#: framework/functions/admin/includes/tmg/registration.php:77
+#: framework/functions/admin/includes/tmg/registration.php:76
 #, php-format
 msgid "Installing Plugin: %s"
 msgstr ""
@@ -510,12 +510,12 @@ msgid "Updating Plugin: %s"
 msgstr ""
 
 #: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:340
-#: framework/functions/admin/includes/tmg/registration.php:78
+#: framework/functions/admin/includes/tmg/registration.php:77
 msgid "Something went wrong with the plugin API."
 msgstr ""
 
 #: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:343
-#: framework/functions/admin/includes/tmg/registration.php:79
+#: framework/functions/admin/includes/tmg/registration.php:78
 #, php-format
 msgid "This theme requires the following plugin: %1$s."
 msgid_plural "This theme requires the following plugins: %1$s."
@@ -523,7 +523,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:349
-#: framework/functions/admin/includes/tmg/registration.php:80
+#: framework/functions/admin/includes/tmg/registration.php:79
 #, php-format
 msgid "This theme recommends the following plugin: %1$s."
 msgid_plural "This theme recommends the following plugins: %1$s."
@@ -531,7 +531,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:355
-#: framework/functions/admin/includes/tmg/registration.php:85
+#: framework/functions/admin/includes/tmg/registration.php:84
 #, php-format
 msgid ""
 "The following plugin needs to be updated to its latest version to ensure "
@@ -550,7 +550,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:367
-#: framework/functions/admin/includes/tmg/registration.php:82
+#: framework/functions/admin/includes/tmg/registration.php:81
 #, php-format
 msgid "The following required plugin is currently inactive: %1$s."
 msgid_plural "The following required plugins are currently inactive: %1$s."
@@ -558,7 +558,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:373
-#: framework/functions/admin/includes/tmg/registration.php:83
+#: framework/functions/admin/includes/tmg/registration.php:82
 #, php-format
 msgid "The following recommended plugin is currently inactive: %1$s."
 msgid_plural "The following recommended plugins are currently inactive: %1$s."
@@ -566,7 +566,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:378
-#: framework/functions/admin/includes/tmg/registration.php:87
+#: framework/functions/admin/includes/tmg/registration.php:86
 msgid "Begin installing plugin"
 msgid_plural "Begin installing plugins"
 msgstr[0] ""
@@ -585,7 +585,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:392
-#: framework/functions/admin/includes/tmg/registration.php:89
+#: framework/functions/admin/includes/tmg/registration.php:88
 msgid "Return to Required Plugins Installer"
 msgstr ""
 
@@ -598,7 +598,7 @@ msgstr ""
 
 #: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:394
 #: framework/functions/admin/includes/tmg/class-tgm-plugin-activation.php:3244
-#: framework/functions/admin/includes/tmg/registration.php:90
+#: framework/functions/admin/includes/tmg/registration.php:89
 msgid "Plugin activated successfully."
 msgstr ""
 
@@ -922,7 +922,7 @@ msgstr ""
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
-#: framework/functions/admin/includes/tmg/registration.php:81
+#: framework/functions/admin/includes/tmg/registration.php:80
 #, php-format
 msgid ""
 "Sorry, but you do not have the correct permissions to install the %s plugin. "
@@ -934,7 +934,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: framework/functions/admin/includes/tmg/registration.php:84
+#: framework/functions/admin/includes/tmg/registration.php:83
 #, php-format
 msgid ""
 "Sorry, but you do not have the correct permissions to activate the %s plugin. "
@@ -946,7 +946,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: framework/functions/admin/includes/tmg/registration.php:86
+#: framework/functions/admin/includes/tmg/registration.php:85
 #, php-format
 msgid ""
 "Sorry, but you do not have the correct permissions to update the %s plugin. "
@@ -957,13 +957,13 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: framework/functions/admin/includes/tmg/registration.php:88
+#: framework/functions/admin/includes/tmg/registration.php:87
 msgid "Activate installed plugin"
 msgid_plural "Activate installed plugins"
 msgstr[0] ""
 msgstr[1] ""
 
-#: framework/functions/admin/includes/tmg/registration.php:91
+#: framework/functions/admin/includes/tmg/registration.php:90
 #, php-format
 msgid "All plugins installed and activated successfully. %s"
 msgstr ""

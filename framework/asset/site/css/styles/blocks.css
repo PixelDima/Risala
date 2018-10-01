@@ -129,3 +129,7 @@ Color & Background for GB
 .has-cl-dima-success-background-color {
   background-color: #4caf50;
 }
+
+.wp-block-embed {
+  margin-bottom: 1.6em;
+}

@@ -599,3 +599,8 @@ $nav_translation-out: all 0.3s ease-out;
 		display: block;
 	}
 }
+
+.titles-wrap{
+	position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+}

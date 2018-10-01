@@ -28,7 +28,7 @@
     "gulp-ignore": "^2.0.2",
     "gulp-imagemin": "^0.6.2",
     "gulp-jshint": "^1.12.0",
-    "gulp-line-ending-corrector": "^1.0.2",
+    "gulp-line-ending-corrector": "^1.0.3",
     "gulp-minify-css": "^1.2.4",
     "gulp-newer": "^1.4.0",
     "gulp-notify": "^2.2.0",
@@ -42,12 +42,12 @@
     "imagemin-jpegtran": "^5.0.2",
     "imagemin-optipng": "^5.2.1",
     "imagemin-pngquant": "^5.1.0",
-    "stylelint-config-wordpress": "^13.0.0"
+    "stylelint-config-wordpress": "^13.1.0"
   },
   "dependencies": {
     "babel-preset-es2015": "^6.24.1",
-    "browser-sync": "^2.18.13",
-    "event-stream": "^3.3.4",
+    "browser-sync": "^2.24.7",
+    "event-stream": "^3.3.6",
     "graceful-fs": "^4.1.11",
     "gulp-babel": "^6.1.2",
     "gulp-cache": "^0.2.8",
@@ -68,7 +68,7 @@
     "gulp-util": "^3.0.4",
     "gulp-wp-pot": "^2.0.6",
     "gulp-zip": "^2.0.3",
-    "lodash": "^3.10.1",
+    "lodash": "^4.17.11",
     "tiny-lr": "0.0.7",
     "uint8": "^1.0.0"
   },

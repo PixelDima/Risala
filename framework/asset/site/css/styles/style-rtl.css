@@ -1713,7 +1713,7 @@ body.dima-site-clean.blog .post, body.dima-site-clean.archive #post-wrap .post, 
   margin-bottom: 3.8888888889rem;
 }
 
-body.dima-site-clean #page .more-link + p {
+body.dima-site-clean #page p + .more-link {
   margin-top: 1.1111111111rem;
 }
 
@@ -2598,6 +2598,11 @@ form textarea:focus {
   }
 }
 
+.titles-wrap {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
 /*--------------------------------------------------------------
 6.0 Grids
 /* -------------------------------------------------------------*/
@@ -2664,6 +2669,12 @@ body {
   position: relative;
   width: 66.66667%;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 989px) {
+  .mini-width {
+    width: 100%;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -3348,6 +3359,6 @@ footer {
   color: #a2a2a2;
 }
 
-.footer-bottom .social-navigation a:before:hover {
+.footer-bottom .social-navigation a:hover:before {
   color: #ffffff;
 }

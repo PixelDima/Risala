@@ -19,19 +19,7 @@ if ( ! function_exists( 'dima_register_theme_plugins' ) ) :
 		/*------------------------------*/
 		$plugins = array(
 
-			'amp'                       => array(
-				'name'               => 'AMP',
-				'slug'               => 'amp',
-				'required'           => false,
-				'force_activation'   => false,
-				'force_deactivation' => false,
-				'dima_author'        => 'Automattic',
-				'dima_plugin'        => 'amp/amp.php',
-				'dima_description'   => 'This plugin adds support for the Accelerated Mobile Pages (AMP) Project',
-				'dima_logo'          => DIMA_TEMPLATE_URL . '/framework/images/logo-amp.png',
-			),
-
-			'contact-form-7'            => array(
+			'caldera-forms'            => array(
 				'name'               => 'Caldera Forms',
 				'slug'               => 'caldera-forms',
 				'required'           => false,
@@ -40,6 +28,18 @@ if ( ! function_exists( 'dima_register_theme_plugins' ) ) :
 				'dima_author'        => 'caldera forms',
 				'dima_plugin'        => 'caldera-forms/caldera-forms.php',
 				'dima_description'   => 'Caldera Form is a free and powerful WordPress plugin that creates responsive forms with a simple drag and drop editor.',
+				'dima_logo'          => '',
+			),
+			
+			'autoptimize'          => array(
+				'name'               => 'Autoptimize',
+				'slug'               => 'autoptimize',
+				'required'           => false,
+				'force_activation'   => false,
+				'force_deactivation' => false,
+				'dima_author'        => 'Frank Goossens (futtta)',
+				'dima_plugin'        => 'autoptimize/autoptimize.php',
+				'dima_description'   => 'Autoptimize makes optimizing your site really easy.',
 				'dima_logo'          => '',
 			),
 
@@ -52,9 +52,8 @@ if ( ! function_exists( 'dima_register_theme_plugins' ) ) :
 				'dima_author'        => 'PixelDima',
 				'dima_plugin'        => 'dima-take-action/dima-take-action.php',
 				'dima_description'   => 'Adds a beautiful, customizable take action banner containe a promotion or a news to the top or the bottom of your WordPress site.',
-				'dima_logo'          => DIMA_TEMPLATE_URL . '/framework/images/dima-take-action.jpg',
-			),
-
+				'dima_logo'          => '',
+			)
 		);
 
 
