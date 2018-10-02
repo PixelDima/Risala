@@ -498,6 +498,7 @@ code {
 }
 
 pre {
+  direction: ltr;
   font-family: "Courier 10 Pitch", Courier, monospace;
   white-space: pre;
   display: block;

@@ -360,6 +360,10 @@ p {
   word-spacing: 0.01em;
 }
 
+p.has-drop-cap:first-letter {
+  line-height: 1 !important;
+}
+
 caption {
   font-size: 1rem;
 }
@@ -498,6 +502,7 @@ code {
 }
 
 pre {
+  direction: ltr;
   font-family: "Courier 10 Pitch", Courier, monospace;
   white-space: pre;
   display: block;
