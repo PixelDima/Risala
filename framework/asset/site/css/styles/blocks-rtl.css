@@ -133,3 +133,7 @@ Color & Background for GB
 .wp-block-embed {
   margin-bottom: 1.6em;
 }
+
+.wp-block-embed.wp-embed-aspect-16-9 .wp-block-embed__wrapper:before {
+  padding-top: 0 !important;
+}
