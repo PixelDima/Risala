@@ -22,16 +22,15 @@ if (!defined('ABSPATH')) {
 if (!function_exists('dima_global_styles')):
     function dima_global_styles()
 {
-        $dima_css_style_dir = '/framework/asset/site/css/styles/';
-        $demo = '';
+        $dima_css_style_dir = '/framework/asset/site/css/styles';
         $ext = '';
         $min = '';
         $rtl = is_rtl() ? '-rtl' : '';
 
         //Register styles.
-        wp_enqueue_style(DIMA_THEME_NAME . '-style', DIMA_TEMPLATE_URL . $dima_css_style_dir . $demo . '/style' . $ext . $rtl . $min . '.css', array(), DIMA_VERSION);
-        wp_enqueue_style('dima-blocks-common-style', DIMA_TEMPLATE_URL . $dima_css_style_dir . $demo . '/block-common' . $ext . $rtl . $min . '.css', null, DIMA_VERSION, 'all');
-        wp_enqueue_style('dima-blocks-style', DIMA_TEMPLATE_URL . $dima_css_style_dir . $demo . '/blocks' . $ext . $rtl . $min . '.css', null, DIMA_VERSION, 'all');
+        wp_enqueue_style(DIMA_THEME_NAME . '-style', DIMA_TEMPLATE_URL . $dima_css_style_dir .'/style' . $ext . $rtl . $min . '.css', array(), DIMA_VERSION);
+        wp_enqueue_style('dima-blocks-common-style', DIMA_TEMPLATE_URL . $dima_css_style_dir . '/block-common' . $ext . $rtl . $min . '.css', null, DIMA_VERSION, 'all');
+        wp_enqueue_style('dima-blocks-style', DIMA_TEMPLATE_URL . $dima_css_style_dir .'/blocks' . $ext . $rtl . $min . '.css', null, DIMA_VERSION, 'all');
     }
 endif;
 add_action('wp_enqueue_scripts', 'dima_global_styles');
@@ -46,8 +45,8 @@ function dima_blocks_block_editor_styles()
     $ext = '';
     $min = '';
     $rtl = is_rtl() ? '-rtl' : '';
-    wp_enqueue_style('dima-blocks-block-editor-styles', DIMA_TEMPLATE_URL . $dima_css_style_dir . $demo . '/blocks-style-editor' . $ext . $rtl . $min . '.css', null, DIMA_VERSION, 'all');
-    wp_enqueue_style('dima-blocks-common-style', DIMA_TEMPLATE_URL . $dima_css_style_dir . $demo . '/block-common' . $ext . $rtl . $min . '.css', null, DIMA_VERSION, 'all');
+    wp_enqueue_style('dima-blocks-block-editor-styles', DIMA_TEMPLATE_URL . $dima_css_style_dir . '/blocks-style-editor' . $ext . $rtl . $min . '.css', null, DIMA_VERSION, 'all');
+    wp_enqueue_style('dima-blocks-common-style', DIMA_TEMPLATE_URL . $dima_css_style_dir . '/block-common' . $ext . $rtl . $min . '.css', null, DIMA_VERSION, 'all');
 }
 add_action('enqueue_block_editor_assets', 'dima_blocks_block_editor_styles');
 
