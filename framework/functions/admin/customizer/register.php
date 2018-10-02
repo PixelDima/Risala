@@ -140,6 +140,13 @@ function dima_register_theme_customizer_options($wp_customize)
         esc_html__('Typography', 'risala'),
         ++$i,
     );
+    $DIMA['panel'][] = array(
+		'dima_customizer_panel_advanced',
+		esc_html__( 'Advanced Settings', 'risala' ),
+		esc_html__( 'Advanced Settings', 'risala' ),
+		200,
+	);
+
     /* !Panel */
 
     $DIMA['sections'][] = array(
@@ -245,6 +252,14 @@ function dima_register_theme_customizer_options($wp_customize)
         ++$i,
         'dima_customizer_panel_typography',
     );
+
+    $DIMA['sections'][] = array(
+		'dima_customizer_global',
+		esc_html__( 'Social Graph & SEO', 'risala' ),
+		++ $i,
+		'dima_customizer_panel_advanced',
+	);
+
 
 	$DIMA['sections'][] = array( 'dima_customizer_section_custom', esc_html__( 'Custom JavaScript', 'risala' ), 150, '' );
 
@@ -1121,7 +1136,59 @@ function dima_register_theme_customizer_options($wp_customize)
 		'dima_customizer_section_custom',
 		''
     ); 
+
+    /* -- SEO -- */
+    $DIMA['settings'][] = array( 'dima_open_graph_meta_tag', 'refresh', 'dima_validate_radio' );
+	$DIMA['controls'][] = array(
+		'dima_open_graph_meta_tag',
+		'radio_button_set',
+		esc_html__( 'Open Graph', 'risala' ),
+		'dima_customizer_global',
+		$Choices_on_off,
+		''
+	);
+
+    $DIMA['settings'][] = array( 'dima_opengraph_image', 'refresh', 'dima_validate_image' );
+	$DIMA['controls'][] = array(
+		'dima_opengraph_image',
+		'image',
+		esc_html__( 'Upload opengraph image', 'risala' ),
+		'dima_customizer_global',
+		esc_html__( 'Image URL which should represent your object within the graph.', 'risala' )
+    );
+
+    $DIMA['settings'][] = array( 'dima_facebook_page_id', 'refresh', 'dima_return_false' );
+	$DIMA['controls'][] = array(
+		'dima_facebook_page_id',
+		'text',
+		esc_html__( 'Facebook Pages ID', 'risala' ),
+		'dima_customizer_global',
+		esc_html( 'To add by multiple IDs, enter your IDs separated by a comma.', 'risala' )
+    );
+    
+	$DIMA['settings'][] = array( 'dima_twitter_username', 'refresh', 'dima_return_false' );
+	$DIMA['controls'][] = array(
+		'dima_twitter_username',
+		'text',
+		esc_html__( 'Twitter Username (e.g. @pixeldima)', 'risala' ),
+		'dima_customizer_global',
+		''
+    );
+    
+    $DIMA['settings'][] = array( 'dima_twitter_account_id', 'refresh', 'dima_return_false' );
+	$DIMA['controls'][] = array(
+		'dima_twitter_account_id',
+		'text',
+		esc_html__( 'Twitter Account ID', 'risala' ),
+		'dima_customizer_global',
+		''
+	);
+
+    /* -- !SEO -- */
+
+    //-- The End --//
     dima_customizer_controls_list($DIMA, $wp_customize, $dima_customizer_data);
+
 }
 
 global $dima_customizer_data;

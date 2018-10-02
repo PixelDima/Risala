@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Risala 1.0.0\n"
 "Report-Msgid-Bugs-To: PixelDima <translations@example.com>\n"
-"POT-Creation-Date: 2018-10-01 22:31+0100\n"
+"POT-Creation-Date: 2018-10-02 19:14+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: pixeldima\n"
 "Language-Team: PixelDima\n"
@@ -149,7 +149,7 @@ msgid "Standard Fonts"
 msgstr "خطوط عادية"
 
 #: framework/functions/admin/customizer/include/controls/typography/dima_custom_control_typography.php:83
-#: framework/functions/admin/customizer/register.php:366
+#: framework/functions/admin/customizer/register.php:381
 msgid "Google Fonts"
 msgstr "خطوط جوجل"
 
@@ -207,112 +207,121 @@ msgstr "تخطيط الموقع وتصميمه"
 msgid "Typography"
 msgstr "الخطوط"
 
-#: framework/functions/admin/customizer/register.php:147
+#: framework/functions/admin/customizer/register.php:145
+#: framework/functions/admin/customizer/register.php:146
+msgid "Advanced Settings"
+msgstr "اعدادات متقدمة"
+
+#: framework/functions/admin/customizer/register.php:154
 msgid "Demos"
 msgstr "قوالب جاهزة"
 
-#: framework/functions/admin/customizer/register.php:154
+#: framework/functions/admin/customizer/register.php:161
 msgid "Layout Settings"
 msgstr "الشكل الظاهرى للموقع"
 
-#: framework/functions/admin/customizer/register.php:161
+#: framework/functions/admin/customizer/register.php:168
 msgid "Site Style"
 msgstr "شكل الموقغ"
 
-#: framework/functions/admin/customizer/register.php:168
+#: framework/functions/admin/customizer/register.php:175
 msgid "General Typography"
 msgstr "الطباعة العامة"
 
-#: framework/functions/admin/customizer/register.php:175
+#: framework/functions/admin/customizer/register.php:182
 msgid "Body"
 msgstr "الهيئة"
 
-#: framework/functions/admin/customizer/register.php:181
+#: framework/functions/admin/customizer/register.php:188
 msgid "Menu"
 msgstr "القائمة"
 
-#: framework/functions/admin/customizer/register.php:187
+#: framework/functions/admin/customizer/register.php:194
 msgid "Sidebar"
 msgstr "العمود الجانبي (Sidebar)"
 
-#: framework/functions/admin/customizer/register.php:194
+#: framework/functions/admin/customizer/register.php:201
 msgid "All Heading"
 msgstr "كل العناوين"
 
-#: framework/functions/admin/customizer/register.php:201
+#: framework/functions/admin/customizer/register.php:208
 msgid "Heading H1"
 msgstr "العنوان H1"
 
-#: framework/functions/admin/customizer/register.php:208
+#: framework/functions/admin/customizer/register.php:215
 msgid "Heading H2"
 msgstr "العنوان H2"
 
-#: framework/functions/admin/customizer/register.php:214
+#: framework/functions/admin/customizer/register.php:221
 msgid "Heading H3"
 msgstr "العنوان H3"
 
-#: framework/functions/admin/customizer/register.php:220
+#: framework/functions/admin/customizer/register.php:227
 msgid "Heading H4"
 msgstr "العنوان H4"
 
-#: framework/functions/admin/customizer/register.php:226
+#: framework/functions/admin/customizer/register.php:233
 msgid "Heading H5"
 msgstr "العنوان H5"
 
-#: framework/functions/admin/customizer/register.php:232
+#: framework/functions/admin/customizer/register.php:239
 msgid "Heading H6"
 msgstr "العنوان H6"
 
-#: framework/functions/admin/customizer/register.php:238
+#: framework/functions/admin/customizer/register.php:245
 msgid "Logo"
 msgstr "الشعار"
 
-#: framework/functions/admin/customizer/register.php:244
+#: framework/functions/admin/customizer/register.php:251
 msgid "Button"
 msgstr "زر"
 
-#: framework/functions/admin/customizer/register.php:249
+#: framework/functions/admin/customizer/register.php:258
+msgid "Social Graph & SEO"
+msgstr "الرسم البياني الاجتماعي و SEO"
+
+#: framework/functions/admin/customizer/register.php:264
 msgid "Custom JavaScript"
 msgstr "جافا سكريبت مخصص"
 
-#: framework/functions/admin/customizer/register.php:258
+#: framework/functions/admin/customizer/register.php:273
 msgid "Content Style"
 msgstr "نمط المحتوى"
 
-#: framework/functions/admin/customizer/register.php:261
+#: framework/functions/admin/customizer/register.php:276
 msgid "Cards"
 msgstr "البطاقات"
 
-#: framework/functions/admin/customizer/register.php:262
+#: framework/functions/admin/customizer/register.php:277
 msgid "Clean"
 msgstr "نظيف"
 
-#: framework/functions/admin/customizer/register.php:271
+#: framework/functions/admin/customizer/register.php:286
 msgid "Content Layout"
 msgstr "تخطيط المحتوى"
 
-#: framework/functions/admin/customizer/register.php:281
+#: framework/functions/admin/customizer/register.php:296
 msgid "Site Content Width (%)"
 msgstr "عُرض محتوى الموقع (%)"
 
-#: framework/functions/admin/customizer/register.php:291
+#: framework/functions/admin/customizer/register.php:306
 msgid "Site Max Content Width (px)"
 msgstr "أقصى عرض لمحتوى الموقع (بكسل)"
 
-#: framework/functions/admin/customizer/register.php:301
+#: framework/functions/admin/customizer/register.php:316
 msgid "Site Sidebar Width (px)"
 msgstr "أقصى عرض للعمود الجانبي"
 
-#: framework/functions/admin/customizer/register.php:315
-#: framework/functions/admin/customizer/register.php:324
+#: framework/functions/admin/customizer/register.php:330
+#: framework/functions/admin/customizer/register.php:339
 msgid "Website Background Color"
 msgstr "لون خلفية الموقع"
 
-#: framework/functions/admin/customizer/register.php:333
+#: framework/functions/admin/customizer/register.php:348
 msgid "Main color"
 msgstr "الون الرئيسي"
 
-#: framework/functions/admin/customizer/register.php:335
+#: framework/functions/admin/customizer/register.php:350
 msgid ""
 "This color will be applied to call to action elements such as buttons and "
 "hover icons. It's preferable to be attractive color and define the main "
@@ -321,89 +330,89 @@ msgstr ""
 "هذا اللون سينطبق على عناصر الدعوة كالزر والأيقونات، من الأحسن أن يكون لون "
 "جذاب و ويعرف اللون الرئيسي لموقعك."
 
-#: framework/functions/admin/customizer/register.php:342
+#: framework/functions/admin/customizer/register.php:357
 msgid "Copyright Content"
 msgstr "محتوى حق النشر"
 
-#: framework/functions/admin/customizer/register.php:351
+#: framework/functions/admin/customizer/register.php:366
 msgid "Logo Width (px)"
 msgstr "عَرض الشعار (px)"
 
-#: framework/functions/admin/customizer/register.php:376
+#: framework/functions/admin/customizer/register.php:391
 msgid "Font Subsets"
 msgstr "فروع الخط"
 
-#: framework/functions/admin/customizer/register.php:386
-#: framework/functions/admin/customizer/register.php:465
-#: framework/functions/admin/customizer/register.php:541
-#: framework/functions/admin/customizer/register.php:611
-#: framework/functions/admin/customizer/register.php:680
-#: framework/functions/admin/customizer/register.php:749
-#: framework/functions/admin/customizer/register.php:818
-#: framework/functions/admin/customizer/register.php:887
-#: framework/functions/admin/customizer/register.php:957
-#: framework/functions/admin/customizer/register.php:1027
-#: framework/functions/admin/customizer/register.php:1077
+#: framework/functions/admin/customizer/register.php:401
+#: framework/functions/admin/customizer/register.php:480
+#: framework/functions/admin/customizer/register.php:556
+#: framework/functions/admin/customizer/register.php:626
+#: framework/functions/admin/customizer/register.php:695
+#: framework/functions/admin/customizer/register.php:764
+#: framework/functions/admin/customizer/register.php:833
+#: framework/functions/admin/customizer/register.php:902
+#: framework/functions/admin/customizer/register.php:972
+#: framework/functions/admin/customizer/register.php:1042
+#: framework/functions/admin/customizer/register.php:1092
 msgid "Font Family"
 msgstr "عائلة الخط"
 
-#: framework/functions/admin/customizer/register.php:396
-#: framework/functions/admin/customizer/register.php:482
-#: framework/functions/admin/customizer/register.php:552
-#: framework/functions/admin/customizer/register.php:621
-#: framework/functions/admin/customizer/register.php:690
-#: framework/functions/admin/customizer/register.php:759
-#: framework/functions/admin/customizer/register.php:828
-#: framework/functions/admin/customizer/register.php:897
-#: framework/functions/admin/customizer/register.php:967
-#: framework/functions/admin/customizer/register.php:1037
-#: framework/functions/admin/customizer/register.php:1087
+#: framework/functions/admin/customizer/register.php:411
+#: framework/functions/admin/customizer/register.php:497
+#: framework/functions/admin/customizer/register.php:567
+#: framework/functions/admin/customizer/register.php:636
+#: framework/functions/admin/customizer/register.php:705
+#: framework/functions/admin/customizer/register.php:774
+#: framework/functions/admin/customizer/register.php:843
+#: framework/functions/admin/customizer/register.php:912
+#: framework/functions/admin/customizer/register.php:982
+#: framework/functions/admin/customizer/register.php:1052
+#: framework/functions/admin/customizer/register.php:1102
 msgid "Font Variants"
 msgstr "أنواع الخط"
 
-#: framework/functions/admin/customizer/register.php:406
-#: framework/functions/admin/customizer/register.php:492
-#: framework/functions/admin/customizer/register.php:562
-#: framework/functions/admin/customizer/register.php:631
-#: framework/functions/admin/customizer/register.php:700
-#: framework/functions/admin/customizer/register.php:769
-#: framework/functions/admin/customizer/register.php:838
-#: framework/functions/admin/customizer/register.php:907
-#: framework/functions/admin/customizer/register.php:1047
+#: framework/functions/admin/customizer/register.php:421
+#: framework/functions/admin/customizer/register.php:507
+#: framework/functions/admin/customizer/register.php:577
+#: framework/functions/admin/customizer/register.php:646
+#: framework/functions/admin/customizer/register.php:715
+#: framework/functions/admin/customizer/register.php:784
+#: framework/functions/admin/customizer/register.php:853
+#: framework/functions/admin/customizer/register.php:922
+#: framework/functions/admin/customizer/register.php:1062
 msgid "Font Weights"
 msgstr "أوزان خط الجسم"
 
-#: framework/functions/admin/customizer/register.php:409
-#: framework/functions/admin/customizer/register.php:495
-#: framework/functions/admin/customizer/register.php:565
-#: framework/functions/admin/customizer/register.php:634
-#: framework/functions/admin/customizer/register.php:703
-#: framework/functions/admin/customizer/register.php:772
-#: framework/functions/admin/customizer/register.php:841
-#: framework/functions/admin/customizer/register.php:910
-#: framework/functions/admin/customizer/register.php:980
-#: framework/functions/admin/customizer/register.php:1050
-#: framework/functions/admin/customizer/register.php:1100
+#: framework/functions/admin/customizer/register.php:424
+#: framework/functions/admin/customizer/register.php:510
+#: framework/functions/admin/customizer/register.php:580
+#: framework/functions/admin/customizer/register.php:649
+#: framework/functions/admin/customizer/register.php:718
+#: framework/functions/admin/customizer/register.php:787
+#: framework/functions/admin/customizer/register.php:856
+#: framework/functions/admin/customizer/register.php:925
+#: framework/functions/admin/customizer/register.php:995
+#: framework/functions/admin/customizer/register.php:1065
+#: framework/functions/admin/customizer/register.php:1115
 msgid "Important: Not all fonts support every font-weight."
 msgstr "هام: لا تعتمد كافة الخطوط كل الخط الوزن."
 
-#: framework/functions/admin/customizer/register.php:416
+#: framework/functions/admin/customizer/register.php:431
 msgid "Body Font Size"
 msgstr "حجم خط القسم الرئيسي"
 
-#: framework/functions/admin/customizer/register.php:418
+#: framework/functions/admin/customizer/register.php:433
 msgid "You can add: px-em-%"
 msgstr "يمكنك أضافه: px-em-٪"
 
-#: framework/functions/admin/customizer/register.php:425
+#: framework/functions/admin/customizer/register.php:440
 msgid "Body text color"
 msgstr "لون خط الموقع"
 
-#: framework/functions/admin/customizer/register.php:434
+#: framework/functions/admin/customizer/register.php:449
 msgid "Text Link color"
 msgstr "لون الرابط"
 
-#: framework/functions/admin/customizer/register.php:436
+#: framework/functions/admin/customizer/register.php:451
 msgid ""
 "This color will be applied to the important text links in your website and "
 "it's preferable to be like your website main color."
@@ -411,86 +420,110 @@ msgstr ""
 "هذا اللون سينطبق على الروابط المهمة في النصوص في موقعك، من الأحسن أن يكون "
 "لون مماثل للون الرئيسي لموقعك."
 
-#: framework/functions/admin/customizer/register.php:443
+#: framework/functions/admin/customizer/register.php:458
 msgid "Text Link Hover color"
 msgstr "لون الرابط عند تمرير الماوس"
 
-#: framework/functions/admin/customizer/register.php:455
-#: framework/functions/admin/customizer/register.php:531
-#: framework/functions/admin/customizer/register.php:601
-#: framework/functions/admin/customizer/register.php:670
-#: framework/functions/admin/customizer/register.php:739
-#: framework/functions/admin/customizer/register.php:808
-#: framework/functions/admin/customizer/register.php:877
+#: framework/functions/admin/customizer/register.php:470
+#: framework/functions/admin/customizer/register.php:546
+#: framework/functions/admin/customizer/register.php:616
+#: framework/functions/admin/customizer/register.php:685
+#: framework/functions/admin/customizer/register.php:754
+#: framework/functions/admin/customizer/register.php:823
+#: framework/functions/admin/customizer/register.php:892
 msgid "Heading Font Style"
 msgstr "نمط خط العنوان"
 
-#: framework/functions/admin/customizer/register.php:502
-#: framework/functions/admin/customizer/register.php:572
-#: framework/functions/admin/customizer/register.php:641
-#: framework/functions/admin/customizer/register.php:710
-#: framework/functions/admin/customizer/register.php:779
-#: framework/functions/admin/customizer/register.php:848
-#: framework/functions/admin/customizer/register.php:917
-#: framework/functions/admin/customizer/register.php:996
-#: framework/functions/admin/customizer/register.php:1066
+#: framework/functions/admin/customizer/register.php:517
+#: framework/functions/admin/customizer/register.php:587
+#: framework/functions/admin/customizer/register.php:656
+#: framework/functions/admin/customizer/register.php:725
+#: framework/functions/admin/customizer/register.php:794
+#: framework/functions/admin/customizer/register.php:863
+#: framework/functions/admin/customizer/register.php:932
+#: framework/functions/admin/customizer/register.php:1011
+#: framework/functions/admin/customizer/register.php:1081
 msgid "Letter Spacing"
 msgstr "تباعد الحروف"
 
-#: framework/functions/admin/customizer/register.php:511
-#: framework/functions/admin/customizer/register.php:581
-#: framework/functions/admin/customizer/register.php:650
-#: framework/functions/admin/customizer/register.php:719
-#: framework/functions/admin/customizer/register.php:788
-#: framework/functions/admin/customizer/register.php:857
-#: framework/functions/admin/customizer/register.php:926
-#: framework/functions/admin/customizer/register.php:1057
+#: framework/functions/admin/customizer/register.php:526
+#: framework/functions/admin/customizer/register.php:596
+#: framework/functions/admin/customizer/register.php:665
+#: framework/functions/admin/customizer/register.php:734
+#: framework/functions/admin/customizer/register.php:803
+#: framework/functions/admin/customizer/register.php:872
+#: framework/functions/admin/customizer/register.php:941
+#: framework/functions/admin/customizer/register.php:1072
 msgid "Font Size"
 msgstr "حجم الخط"
 
-#: framework/functions/admin/customizer/register.php:520
-#: framework/functions/admin/customizer/register.php:590
-#: framework/functions/admin/customizer/register.php:659
-#: framework/functions/admin/customizer/register.php:728
-#: framework/functions/admin/customizer/register.php:797
-#: framework/functions/admin/customizer/register.php:866
-#: framework/functions/admin/customizer/register.php:935
+#: framework/functions/admin/customizer/register.php:535
+#: framework/functions/admin/customizer/register.php:605
+#: framework/functions/admin/customizer/register.php:674
+#: framework/functions/admin/customizer/register.php:743
+#: framework/functions/admin/customizer/register.php:812
+#: framework/functions/admin/customizer/register.php:881
+#: framework/functions/admin/customizer/register.php:950
 msgid "Headings color"
 msgstr "لون العناوين"
 
-#: framework/functions/admin/customizer/register.php:947
+#: framework/functions/admin/customizer/register.php:962
 msgid "Logo Font Style"
 msgstr "نمط خط الشعار"
 
-#: framework/functions/admin/customizer/register.php:977
+#: framework/functions/admin/customizer/register.php:992
 msgid "Logo Font Weights"
 msgstr "أوزان خط الشعار (Logo)"
 
-#: framework/functions/admin/customizer/register.php:987
+#: framework/functions/admin/customizer/register.php:1002
 msgid "Logo Font Size"
 msgstr "حجم خط الشعار"
 
-#: framework/functions/admin/customizer/register.php:1005
+#: framework/functions/admin/customizer/register.php:1020
 msgid "Logo Text Color"
 msgstr "لون الشعار"
 
-#: framework/functions/admin/customizer/register.php:1017
+#: framework/functions/admin/customizer/register.php:1032
 msgid "Font Style"
 msgstr "نمط الخط"
 
-#: framework/functions/admin/customizer/register.php:1097
+#: framework/functions/admin/customizer/register.php:1112
 msgid "Button Font Weights"
 msgstr "أوزان خط الزر"
 
-#: framework/functions/admin/customizer/register.php:1107
+#: framework/functions/admin/customizer/register.php:1122
 msgid "Button Font Size"
 msgstr "حجم جط الزر"
 
-#: framework/functions/admin/customizer/register.php:1120
+#: framework/functions/admin/customizer/register.php:1135
 msgid "JavaScript"
 msgstr "جافا سكريبت"
 
-#: framework/functions/admin/customizer/register.php:1176
+#: framework/functions/admin/customizer/register.php:1145
+msgid "Open Graph"
+msgstr "فتح opengraph"
+
+#: framework/functions/admin/customizer/register.php:1155
+msgid "Upload opengraph image"
+msgstr "تحميل صورة opengraph"
+
+#: framework/functions/admin/customizer/register.php:1157
+msgid "Image URL which should represent your object within the graph."
+msgstr "عنوان الصورة التي يجب أن تمثل موضوع الرسم البياني."
+
+#: framework/functions/admin/customizer/register.php:1164
+msgid "Facebook Pages ID"
+msgstr "معرف الفيسبوك (Facebook App ID )"
+
+#: framework/functions/admin/customizer/register.php:1173
+msgid "Twitter Username (e.g. @pixeldima)"
+msgstr "اسم المستخدم على تويتر (مثال @pixeldima)"
+
+#: framework/functions/admin/customizer/register.php:1182
+msgid "Twitter Account ID"
+msgstr "معرّف حساب تويتر"
+
+#: framework/functions/admin/customizer/register.php:1243
 msgid "Get More Themes"
 msgstr "الحصول علي المزيد من المواضيع"
 
@@ -1258,40 +1291,40 @@ msgstr "نتائج البحث عن: %s"
 msgid "Page Not Found"
 msgstr "الصفحة غير موجودة"
 
-#: functions.php:188
+#: functions.php:189
 msgid "Main Sidebar"
 msgstr "العمود الجانبي الأساسي"
 
-#: functions.php:190
+#: functions.php:191
 msgid "Appears on posts and pages that include the sidebar."
 msgstr "يظهر على المواضيع والصفحات التي تحتوي على العمود الجانبي."
 
-#: functions.php:200
+#: functions.php:201
 msgid "First Footer Area #"
 msgstr "منطقة الفوتر الأولى #"
 
-#: functions.php:202
+#: functions.php:203
 msgid "Widgetized footer area."
 msgstr "منطقة الويدجت في الفوتر."
 
-#: functions.php:249
+#: functions.php:250
 msgid "Author"
 msgstr "الكاتب"
 
-#: functions.php:263
+#: functions.php:264
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s الساعة %2$s"
 
-#: functions.php:269
+#: functions.php:270
 msgid "Your comment is awaiting moderation."
 msgstr "تعليقك بإنتظار المراجعة."
 
-#: functions.php:286
+#: functions.php:287
 msgid "Reply <span class=\"comment-reply-link-after\"></span>"
 msgstr "الرد <span class=\"comment-reply-link-after\"></span>"
 
-#: functions.php:296
+#: functions.php:297
 msgid "Edit"
 msgstr "تعديل"
 

@@ -143,20 +143,13 @@ $dima_customizer_data = array(
     /* ------------------- */
 
     'dima_custom_js' => '',
-    /* AMP */
-	'dima_amp_logo'                               => '',
-	'dima_amp_logo_width'                         => '155',
-	'dima_amp_related_posts'                      => '1',
-	'dima_amp_enable'                             => '1',
-    'dima_amp_share_buttons'                      => '1',
-    'dima_amp_facebook_id'                        => '',
-	'dima_amp_leave_a_comment'                    => 'Leave a Comment',
-	'dima_amp_check_also'                         => 'Check Also',
-	'dima_amp_categories'                         => 'Categories',
-	'dima_amp_ago'                                => 'Ago',
-	'dima_amp_tags'                               => 'Tags',
-
-    /* !AMP */
+    /* SEO */
+	'dima_opengraph_image'                        => '',
+	'dima_open_graph_meta_tag'                    => '1',
+	'dima_twitter_username'                       => '',
+	'dima_twitter_account_id'                     => '',
+	'dima_facebook_page_id'                       => '',
+    /* !SEO */
 
 );
 
