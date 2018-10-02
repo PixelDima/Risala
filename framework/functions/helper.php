@@ -343,6 +343,13 @@ if ( ! class_exists( 'dima_helper' ) ) {
 			}
 		}
 
+		static function dima_get_featured_image_url( $size = 'dima-post-standard-image' ) {
+			$post_id  = get_the_ID();
+			$image_id = get_post_thumbnail_id( $post_id );
+			$image    = wp_get_attachment_image_src( $image_id, $size );
+
+			return $image[0];
+		}
 
 	}
 }
