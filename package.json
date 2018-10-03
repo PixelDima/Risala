@@ -1,8 +1,8 @@
 {
-  "name": "noor_assistant",
-  "title": "noor_assistant",
+  "name": "risala",
+  "title": "risala",
   "version": "1.5.6",
-  "description": "This plugin is required to run Noor as it includes all of our shortcode functionality, which is tightly integrated into the theme",
+  "description": "Risala Theme",
   "main": "gulpfile.js",
   "copyright": "Copyright (c) 2018, PixelDima",
   "requires": "4.3",
@@ -12,9 +12,9 @@
     "gulp": "./node_modules/gulp/bin/gulp.js"
   },
   "keywords": [
-    "ok",
-    "grids",
-    "noor"
+    "risala",
+    "WordPress",
+    "theme"
   ],
   "author": "pixeldima",
   "license": "ISC",
