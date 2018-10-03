@@ -18,6 +18,7 @@ require_once( $dima_tmg_path . '/updates.php' );
 
 require_once 'framework/functions/helper.php';
 require_once 'framework/functions/open-graph.php';
+require_once 'framework/functions/rich-snippets.php';
 require_once 'framework/functions/dynamic-styles.php';
 require_once 'framework/functions/setup.php';
 

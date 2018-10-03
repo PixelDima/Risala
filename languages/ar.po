@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Risala 1.0.0\n"
 "Report-Msgid-Bugs-To: PixelDima <translations@example.com>\n"
-"POT-Creation-Date: 2018-10-02 19:14+0100\n"
+"POT-Creation-Date: 2018-10-03 16:42+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: pixeldima\n"
 "Language-Team: PixelDima\n"
@@ -191,7 +191,7 @@ msgstr "السيريلية الموسعة "
 
 #: framework/functions/admin/customizer/include/fonts.php:7591
 msgid "Japanese "
-msgstr "اليابانية"
+msgstr "اليابانية "
 
 #: framework/functions/admin/customizer/include/fonts.php:7592
 msgid "vietnamese"
@@ -523,7 +523,27 @@ msgstr "اسم المستخدم على تويتر (مثال @pixeldima)"
 msgid "Twitter Account ID"
 msgstr "معرّف حساب تويتر"
 
-#: framework/functions/admin/customizer/register.php:1243
+#: framework/functions/admin/customizer/register.php:1191
+msgid "Structure Data"
+msgstr "بنية البيانات"
+
+#: framework/functions/admin/customizer/register.php:1201
+msgid "Default Schema type"
+msgstr "نوع المخطط الافتراضي"
+
+#: framework/functions/admin/customizer/register.php:1204
+msgid "NewsArticle"
+msgstr "مقال إخباري"
+
+#: framework/functions/admin/customizer/register.php:1205
+msgid "Article"
+msgstr "مقال"
+
+#: framework/functions/admin/customizer/register.php:1206
+msgid "BlogPosting"
+msgstr "نشر المدونة"
+
+#: framework/functions/admin/customizer/register.php:1268
 msgid "Get More Themes"
 msgstr "الحصول علي المزيد من المواضيع"
 
@@ -1134,31 +1154,31 @@ msgstr "تم تفعيل وتثبيت كل الإضافات بنجاح. %1$s"
 msgid "This plugin is bundled with %s."
 msgstr "هذه الإضافة مجملة مع %s."
 
-#: framework/functions/scripts.php:96
+#: framework/functions/scripts.php:97
 msgid "Let&apos;s go!"
 msgstr "هيا بنا!"
 
-#: framework/functions/scripts.php:97
+#: framework/functions/scripts.php:98
 msgid "Working...!"
 msgstr "جاري العمل....!"
 
-#: framework/functions/scripts.php:98
+#: framework/functions/scripts.php:99
 msgid "Please wait...!"
 msgstr "الرجاء الانتظار...!"
 
-#: framework/functions/scripts.php:99
+#: framework/functions/scripts.php:100
 msgid "Hang in there, trying to reconnect..."
 msgstr "اصبر قليلا، نحاول معاودة الاتصال..."
 
-#: framework/functions/scripts.php:100
+#: framework/functions/scripts.php:101
 msgid "Experiencing technical difficulties..."
 msgstr "بعض المشكلات الفنية ..."
 
-#: framework/functions/scripts.php:101
+#: framework/functions/scripts.php:102
 msgid "We&apos;re sorry, but the demo data could not be imported."
 msgstr "نحن آسفون، ولكن لا يمكن استيراد البيانات التجريبية."
 
-#: framework/functions/scripts.php:102
+#: framework/functions/scripts.php:103
 msgid "All done. Have fun!"
 msgstr "اكتمل .. استمتع !"
 
@@ -1291,40 +1311,40 @@ msgstr "نتائج البحث عن: %s"
 msgid "Page Not Found"
 msgstr "الصفحة غير موجودة"
 
-#: functions.php:189
+#: functions.php:190
 msgid "Main Sidebar"
 msgstr "العمود الجانبي الأساسي"
 
-#: functions.php:191
+#: functions.php:192
 msgid "Appears on posts and pages that include the sidebar."
 msgstr "يظهر على المواضيع والصفحات التي تحتوي على العمود الجانبي."
 
-#: functions.php:201
+#: functions.php:202
 msgid "First Footer Area #"
 msgstr "منطقة الفوتر الأولى #"
 
-#: functions.php:203
+#: functions.php:204
 msgid "Widgetized footer area."
 msgstr "منطقة الويدجت في الفوتر."
 
-#: functions.php:250
+#: functions.php:251
 msgid "Author"
 msgstr "الكاتب"
 
-#: functions.php:264
+#: functions.php:265
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s الساعة %2$s"
 
-#: functions.php:270
+#: functions.php:271
 msgid "Your comment is awaiting moderation."
 msgstr "تعليقك بإنتظار المراجعة."
 
-#: functions.php:287
+#: functions.php:288
 msgid "Reply <span class=\"comment-reply-link-after\"></span>"
 msgstr "الرد <span class=\"comment-reply-link-after\"></span>"
 
-#: functions.php:297
+#: functions.php:298
 msgid "Edit"
 msgstr "تعديل"
 

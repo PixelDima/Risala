@@ -34,4 +34,12 @@ get_header(); ?>
 	</div>
 </div>
 <?php
+if ( is_single() ):
+	// Call article schemas
+	// !☺: It will work if the option is on from cuzmezer.
+	do_action( 'dima_end_of_post' );
+	// Call Pagination.
+	dima_post_navigation();
+endif;
+
 get_footer();

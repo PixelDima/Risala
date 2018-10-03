@@ -66,7 +66,8 @@ $clm = is_active_sidebar('footer-1') + is_active_sidebar('footer-2') + is_active
 				echo wp_kses( $dima_copyright, $allowed_tags );
 				?>
 			</div>
-			<?php if ( has_nav_menu( 'social' ) ) { ?>
+			<?php 			
+			if ( has_nav_menu( 'social' ) ) { ?>
 				<nav class="social-navigation">
 					<?php wp_nav_menu( array(
 						'theme_location' => 'social',

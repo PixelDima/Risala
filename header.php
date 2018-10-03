@@ -82,7 +82,13 @@
 	<!-- !Mobile Menu -->
 
 		<!-- Get the archive page titles -->
-		<?php if(( is_archive() || is_search() || is_404() || is_page()) && ! is_front_page() ) { ?>
+		<?php 
+		$page_template="";
+		if(isset($post->ID)){
+			$page_template = get_post_meta( $post->ID, '_wp_page_template', true );
+		}
+
+		if(( is_archive() || is_search() || is_404() || is_page()) && ! is_front_page() &&  $page_template != 'templates/template-page-builder.php') { ?>
 		<div class="header-page-title">
 			<div class="container text-center">
 				<?php dima_page_titles(); ?>

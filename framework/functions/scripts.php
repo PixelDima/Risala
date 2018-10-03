@@ -69,7 +69,8 @@ if (!function_exists('dima_global_scripts')):
         );
 
         wp_localize_script('jquery', 'pxdm_js', $js_vars);
-
+        do_action( 'dima_website_schemas' );
+        do_action( 'dima_action_organization_schemas' );
     }
 
 endif;

@@ -148,7 +148,10 @@ $dima_customizer_data = array(
 	'dima_open_graph_meta_tag'                    => '1',
 	'dima_twitter_username'                       => '',
 	'dima_twitter_account_id'                     => '',
-	'dima_facebook_page_id'                       => '',
+    'dima_facebook_page_id'                       => '',
+    'dima_structure_data'                         => '1',
+	'dima_schema_type'                            => 'Article',
+
     /* !SEO */
 
 );

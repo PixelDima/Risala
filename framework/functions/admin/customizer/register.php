@@ -1182,7 +1182,32 @@ function dima_register_theme_customizer_options($wp_customize)
 		esc_html__( 'Twitter Account ID', 'risala' ),
 		'dima_customizer_global',
 		''
+    );
+    
+    $DIMA['settings'][] = array( 'dima_structure_data', 'refresh', 'dima_validate_radio' );
+	$DIMA['controls'][] = array(
+		'dima_structure_data',
+		'radio_button_set',
+		esc_html__( 'Structure Data', 'risala' ),
+		'dima_customizer_global',
+		$Choices_on_off,
+		''
 	);
+
+	$DIMA['settings'][] = array( 'dima_schema_type', 'refresh', 'dima_validate_radio' );
+	$DIMA['controls'][] = array(
+		'dima_schema_type',
+		'radio',
+		esc_html__( 'Default Schema type', 'risala' ),
+		'dima_customizer_global',
+		array(
+			'NewsArticle' => esc_html__( 'NewsArticle', 'risala' ),
+			'Article'     => esc_html__( 'Article', 'noorisalar' ),
+			'BlogPosting' => esc_html__( 'BlogPosting', 'risala' ),
+		),
+		''
+	);
+
 
     /* -- !SEO -- */
 
