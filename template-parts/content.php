@@ -42,8 +42,7 @@ if ( !dima_is_it_clean() ) {
 			}
 
 		}
-		echo $categories_output;
-		
+		echo wp_kses( $categories_output, dima_helper::dima_get_allowed_html_tag() );
 		if ( is_single() ) {
 			?>
 			<h1 class="entry-title single-post-title <?php echo esc_attr( $text_ali ) ?>">
@@ -60,16 +59,19 @@ if ( !dima_is_it_clean() ) {
                 </a>
             </h2>
 		<?php } ?>
-		
-    </header>
 
 		<?php
 		dima_get_entry_meta( true, get_post_format( get_the_ID() ) );
+		?>
+				
+	</header>
+	<?php 
 		if(dima_is_it_clean()){
 			dima_get_post_featured_image();
-		}
-		?>
-        <div class="<?php dima_pots_content_class(); ?>">
+		}	
+	?>
+	
+	<div class="<?php dima_pots_content_class(); ?>">
 			<?php 
 			dima_get_post_content( true, 50 ); 
 			?>
@@ -78,8 +80,8 @@ if ( !dima_is_it_clean() ) {
 					<?php the_tags(); ?>
 				</div>
 			<?php } ?>
+	</div>
 
-        </div>
 
 	</div><!-- .entry-content -->	
 

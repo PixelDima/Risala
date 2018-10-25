@@ -48,10 +48,10 @@ class dima_custom_control_slider extends WP_Customize_Control {
                     range: "min",
                     animate: true,
                     slide: function (event, ui) {
-                        $('[id="input_<?php echo( $this->id ); ?>"]').val(ui.value).change().keyup();
+                        $('[id="input_<?php echo esc_attr($this->id); ?>"]').val(ui.value).change().keyup();
                     }
                 });
-                $('[id="input_<?php echo( $this->id ); ?>"]').val($('[id="slider_<?php echo( $this->id ); ?>"]').slider("value")); 
+                $('[id="input_<?php echo esc_attr( $this->id ); ?>"]').val($('[id="slider_<?php echo esc_attr($this->id); ?>"]').slider("value")); 
                 $('.slider_<?php echo esc_attr( $this->id ); ?> .dima-reset-slider').on('click', function() {
                     this_input 		= $( this ).closest( '.slider_<?php echo esc_attr( $this->id ); ?>' ).find( 'input' );
                     input_default 	= this_input.data( 'reset_value' );

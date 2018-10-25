@@ -387,11 +387,30 @@ if ( ! function_exists( 'dima_meta' ) ) {
 			<?php $user_info = get_userdata( $post->post_author ); ?>
 			<?php if ( $user_info && ! empty( $user_info->first_name ) && ! empty( $user_info->last_name ) ) : ?>
                 <meta itemprop="creator accountablePerson"
-                      content="<?php echo $user_info->first_name . ' ' . $user_info->last_name; ?>"/>
+                      content="<?php echo esc_attr($user_info->first_name) . ' ' . esc_attr($user_info->last_name); ?>"/>
 			<?php endif; ?>
 		<?php } ?>
 		<?php
 	}
+}
+
+function dima_get_font_style_icon($value) {
+	$icon             = '';
+	switch ( $value ) {
+		case 'bold':
+			$icon = dima_get_svg_icon( "ic_format_bold" );
+			break;
+		case 'italic':
+			$icon = dima_get_svg_icon( "ic_format_italic" );
+			break;
+		case 'uppercase':
+			$icon = dima_get_svg_icon( "ic_text_fields" );
+			break;
+		case 'underline':
+			$icon = dima_get_svg_icon( "ic_format_underlined" );
+			break;
+	}
+	return $icon;
 }
 
 if ( ! class_exists( 'DIMA_Walker_Nav_Menu' ) ) {

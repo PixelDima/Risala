@@ -164,18 +164,7 @@ jQuery(document).ready(function ($) {
 	//=======================================================================
 	//# Font Selector
 	//=======================================================================
-
-	/*var $fontSelect = $(
-		"#customize-control-dima_body_font_list," +
-		"#customize-control-dima_heading_font_list_2," +
-		"#customize-control-dima_heading_font_list_3," +
-		"#customize-control-dima_heading_font_list_4," +
-		"#customize-control-dima_heading_font_list_5," +
-		"#customize-control-dima_heading_font_list_6"
-    );*/
-    
     var $fontSelect = $('.dima-typography-select');
-
 
 	$fontSelect.each(function () {
 		show_font_variants($(this));
@@ -192,7 +181,6 @@ jQuery(document).ready(function ($) {
 
         
         var _font_name = $('option:selected', selected_font).val();
-        var _font_OS = 'Source Sans Pro';
         var _arabic_font = ['Noto Naskh Arabic', 'Noto Kufi Arabic', 'Noto Nastaliq Urdu', 'Droid Arabic Naskh', 'Droid Arabic Kufi', 'Lateef'];
 
         var _font_weights_list = "";

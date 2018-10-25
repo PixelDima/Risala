@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Risala 1.0.0\n"
 "Report-Msgid-Bugs-To: PixelDima <translations@example.com>\n"
-"POT-Creation-Date: 2018-10-03 16:42+0100\n"
+"POT-Creation-Date: 2018-10-14 15:54+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: pixeldima\n"
 "Language-Team: PixelDima\n"
@@ -21,7 +21,7 @@ msgstr ""
 "esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
 "_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
 "X-Poedit-Basepath: ..\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 "X-Poedit-SearchPathExcluded-1: data\n"
@@ -1272,42 +1272,42 @@ msgstr "نشر في:"
 msgid "Read More..."
 msgstr "اقرأ المزيد..."
 
-#: framework/inc/template-tags.php:169 template-parts/content-page.php:19
+#: framework/inc/template-tags.php:168 template-parts/content-page.php:19
 msgid "Pages:"
 msgstr "الصفحات :"
 
-#: framework/inc/template-tags.php:240
+#: framework/inc/template-tags.php:239
 msgid "Author: "
 msgstr "الكاتب: "
 
-#: framework/inc/template-tags.php:258
+#: framework/inc/template-tags.php:257
 #, php-format
 msgid "All posts by %s"
 msgstr "جميع المشاركات التي كتبها  %s"
 
-#: framework/inc/template-tags.php:260
+#: framework/inc/template-tags.php:259
 #, php-format
 msgid "Author: %s"
 msgstr "الكاتب: %s"
 
-#: framework/inc/template-tags.php:266
+#: framework/inc/template-tags.php:265
 msgid "All Posts"
 msgstr "جميع المنشورات"
 
-#: framework/inc/template-tags.php:270
+#: framework/inc/template-tags.php:269
 msgid "Website"
 msgstr "الموقع الإلكتروني"
 
-#: framework/inc/template-tags.php:332
+#: framework/inc/template-tags.php:331
 msgid "Assign a Menu"
 msgstr "عين قائمة"
 
-#: framework/inc/template-tags.php:343
+#: framework/inc/template-tags.php:342
 #, php-format
 msgid "Search Results for: %s"
 msgstr "نتائج البحث عن: %s"
 
-#: framework/inc/template-tags.php:345
+#: framework/inc/template-tags.php:344
 msgid "Page Not Found"
 msgstr "الصفحة غير موجودة"
 
@@ -1387,7 +1387,7 @@ msgstr ""
 msgid "View all posts in: &ldquo;%s&rdquo;"
 msgstr "مشاهدة جميع المشاركات في: &ldquo;%s&rdquo;"
 
-#: template-parts/content.php:58
+#: template-parts/content.php:57
 #, php-format
 msgid "Permalink to: \"%s\""
 msgstr "الرابط الثابت \"%s\""

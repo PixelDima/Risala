@@ -104,7 +104,7 @@ if ( ! function_exists( 'dima_get_post_content_excerpt' ) ) {
 			} else {
 				$content = implode( ' ', $content );
 			}
-			echo( $content );
+			echo trim($content);
 		}
 
 		// If we have a custom excerpt <!--more--> tag
@@ -153,10 +153,9 @@ if ( ! function_exists( 'dima_pots_content_class' ) ):
 	/**
 	 * [Get content classes based on options selected in customization and meta box']
 	 */
-	function dima_pots_content_class() {
-		
+	function dima_pots_content_class() {		
 		$output = "entry-content post-content text-start";
-		echo( $output );
+		echo esc_attr( $output );
 	}
 endif;
 
@@ -372,16 +371,15 @@ if ( ! function_exists( 'dima_page_titles' ) ):
 			$archive_description = get_the_archive_description();
 
 			if ( is_archive() && $archive_description ) {
-				$subtitle = get_the_archive_description();
+				// Show the subtitle
+				if ( ! empty( $archive_description ) && ! is_singular( 'post' ) ) { ?>
+					<div class="entry-subtitle">
+						<?php echo apply_filters( 'dima_page_title_description',$archive_description); ?>
+					</div>
+				<?php }
+
 			}
-
-			// Show the subtitle
-			if ( ! empty( $subtitle ) && ! is_singular( 'post' ) ) { ?>
-                <div class="entry-subtitle">
-					<?php echo $subtitle; ?>
-                </div>
-			<?php } ?>
-
+			?>
         </div>
 
 		<?php

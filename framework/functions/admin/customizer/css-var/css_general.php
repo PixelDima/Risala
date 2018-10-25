@@ -19,17 +19,17 @@ if ($var_container_width != $dima_customizer_data["dima_content_width"]) {?>
     ?>
 	<?php if (!is_rtl()) {?>
         body .left-content-sidebar-active .dima-sidebar{
-        margin-right: <?php echo ($mrg * 100) / esc_attr($var_container_max_width) ?>%;
+        margin-right: <?php echo esc_attr($mrg * 100) / esc_attr($var_container_max_width) ?>%;
         }
         body .right-content-sidebar-active .dima-sidebar{
-        margin-left: <?php echo ($mrg * 100) / esc_attr($var_container_max_width) ?>%;
+        margin-left: <?php echo esc_attr($mrg * 100) / esc_attr($var_container_max_width) ?>%;
         }
 	<?php } else {?>
         body .left-content-sidebar-active .dima-sidebar{
-        margin-left: <?php echo ($mrg * 100) / esc_attr($var_container_max_width) ?>%;
+        margin-left: <?php echo esc_attr($mrg * 100) / esc_attr($var_container_max_width) ?>%;
         }
         body .right-content-sidebar-active .dima-sidebar{
-        margin-right: <?php echo ($mrg * 100) / esc_attr($var_container_max_width) ?>%;
+        margin-right: <?php echo esc_attr($mrg * 100) / esc_attr($var_container_max_width) ?>%;
         }
 
 	<?php }?>

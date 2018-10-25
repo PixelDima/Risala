@@ -1202,7 +1202,7 @@ function dima_register_theme_customizer_options($wp_customize)
 		'dima_customizer_global',
 		array(
 			'NewsArticle' => esc_html__( 'NewsArticle', 'risala' ),
-			'Article'     => esc_html__( 'Article', 'noorisalar' ),
+			'Article'     => esc_html__( 'Article', 'risala' ),
 			'BlogPosting' => esc_html__( 'BlogPosting', 'risala' ),
 		),
 		''

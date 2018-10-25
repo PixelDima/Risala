@@ -21,7 +21,7 @@ $dima_customizer_data = array(
     'dima_body_subsets_list' => 'latin',
     'dima_body_background_color' => '#F5F5F5',
     'dima_body_background_color_clean' => '#FFFFFF',
-    'dima_footer_content_text' => 'Copyright © 2018 <a href="https://pixeldima.com/">PixelDima</a>. Powered by WordPress.',
+    'dima_footer_content_text' => 'Copyright &#169; 2018 <a href="https://pixeldima.com/">PixelDima</a>. Powered by WordPress.',
     'dima_layout_content' => 'right-sidebar',
     'dima_layout_style' => 'clean',
     'dima_content_max_width' => '1170',

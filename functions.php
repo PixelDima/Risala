@@ -147,7 +147,7 @@ if (!function_exists('dima_main_content_class')):
                 $output = 'dima-container full';
                 break;
         }
-        echo ($output);
+        echo esc_attr($output);
     }
 endif;
 
@@ -171,7 +171,7 @@ if (!function_exists('dima_sidebar_class')):
             default:
                 $output = 'dima-sidebar hidden-tm hidden float-end';
         }
-        echo ($output);
+        echo esc_attr($output);
     }
 endif;
 

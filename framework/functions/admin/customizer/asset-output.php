@@ -10,7 +10,7 @@
  */
 
 function dima_customizer_generated_css() {
-	$output_css_path = DIMA_TEMPLATE_PATH . '/framework/functions/admin/customizer/css-var';
+	$output_css_path = DIMA_TEMPLATE_PATH.'/framework/functions/admin/customizer/css-var';
 
 	ob_start();
 	echo '<style id="dima-customizer-generated-css" type="text/css">';
@@ -29,9 +29,7 @@ function dima_customizer_generated_css() {
 	// Remove trailing whitespace at the start
 	$output = preg_replace( '/\s\s+(.*)/', '$1', $output );
 	// Remove unnecesairy ;'s
-	$output = str_replace( ';}', '}', $output );
-
-	echo( $output );
+	echo str_replace( ';}', '}', $output );
 
 }
 
