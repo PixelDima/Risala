@@ -14,12 +14,13 @@ if ( ! function_exists( 'dima_register_theme_plugins' ) ) :
 	add_action( 'tgmpa_register', 'dima_register_theme_plugins' );
 	function dima_register_theme_plugins() {
 
-		/*------------------------------*/
-		# Theme plugins
+		/*
+		------------------------------*/
+		// Theme plugins
 		/*------------------------------*/
 		$plugins = array(
 
-			'caldera-forms'            => array(
+			'caldera-forms'    => array(
 				'name'               => 'Caldera Forms',
 				'slug'               => 'caldera-forms',
 				'required'           => false,
@@ -30,8 +31,8 @@ if ( ! function_exists( 'dima_register_theme_plugins' ) ) :
 				'dima_description'   => 'Caldera Form is a free and powerful WordPress plugin that creates responsive forms with a simple drag and drop editor.',
 				'dima_logo'          => '',
 			),
-			
-			'autoptimize'          => array(
+
+			'autoptimize'      => array(
 				'name'               => 'Autoptimize',
 				'slug'               => 'autoptimize',
 				'required'           => false,
@@ -43,7 +44,7 @@ if ( ! function_exists( 'dima_register_theme_plugins' ) ) :
 				'dima_logo'          => '',
 			),
 
-			'dima-take-action'          => array(
+			'dima-take-action' => array(
 				'name'               => 'Dima Take Action',
 				'slug'               => 'dima-take-action',
 				'required'           => false,
@@ -53,12 +54,24 @@ if ( ! function_exists( 'dima_register_theme_plugins' ) ) :
 				'dima_plugin'        => 'dima-take-action/dima-take-action.php',
 				'dima_description'   => 'Adds a beautiful, customizable take action banner containe a promotion or a news to the top or the bottom of your WordPress site.',
 				'dima_logo'          => '',
-			)
+			),
+
+			'wpforms-lite'     => array(
+				'name'               => 'WPForms',
+				'slug'               => 'wpforms-lite',
+				'required'           => false,
+				'force_activation'   => false,
+				'force_deactivation' => false,
+				'dima_author'        => 'WPForms',
+				'dima_plugin'        => 'wpforms-lite/wpforms.php',
+				'dima_description'   => 'Contact Form by WPForms – Drag & Drop Form Builder for WordPress',
+				'dima_logo'          => '',
+			),
 		);
 
-
-		/*------------------------------*/
-		# TMG configuration
+		/*
+		------------------------------*/
+		// TMG configuration
 		/*------------------------------*/
 		$config = array(
 			'id'           => 'risala',
@@ -88,8 +101,8 @@ if ( ! function_exists( 'dima_register_theme_plugins' ) ) :
 				'return'                          => esc_html__( 'Return to Required Plugins Installer', 'risala' ),
 				'plugin_activated'                => esc_html__( 'Plugin activated successfully.', 'risala' ),
 				'complete'                        => esc_html__( 'All plugins installed and activated successfully. %s', 'risala' ),
-				'nag_type'                        => 'updated'
-			)
+				'nag_type'                        => 'updated',
+			),
 		);
 
 		tgmpa( $plugins, $config );
